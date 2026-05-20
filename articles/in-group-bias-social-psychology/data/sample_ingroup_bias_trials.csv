@@ -1,0 +1,11 @@
+participant,site_id,condition,trial,target_group_relation,ingroup_target,group_identification,identity_salience,perceived_threat,norm_strength,status_asymmetry,trust_rating,fairness_rating,competence_rating,warmth_rating,empathy_rating,moral_blame,moral_forgiveness,punishment_severity,reward_allocation,resource_allocation,cooperation_choice,response_time_ms,institutional_context
+P001,S01,identity_salience,1,ingroup,1,8.4,8.0,3.2,7.4,4.0,8.2,7.8,7.4,8.0,7.8,2.8,7.4,2.6,72,76,1,880,trust_game
+P001,S01,identity_salience,2,outgroup,0,8.4,8.0,5.2,7.4,4.0,5.4,5.2,5.8,5.2,4.8,5.8,4.2,5.6,48,46,0,1040,trust_game
+P002,S01,control,1,ingroup,1,5.8,3.2,3.0,4.8,3.2,6.4,6.2,6.6,6.4,6.0,4.0,5.8,4.0,58,60,1,970,minimal_group
+P002,S01,control,2,outgroup,0,5.8,3.2,3.4,4.8,3.2,5.8,5.6,6.0,5.6,5.4,4.8,5.0,4.8,52,50,0,1010,minimal_group
+P003,S02,threat_prime,1,ingroup,1,7.8,7.6,8.0,7.2,6.0,8.0,7.6,7.0,7.8,7.4,3.0,7.2,2.8,74,78,1,910,political_judgment
+P003,S02,threat_prime,2,outgroup,0,7.8,7.6,8.4,7.2,6.0,4.4,4.2,5.0,4.2,3.8,7.6,3.0,7.8,38,36,0,1200,political_judgment
+P004,S03,fairness_norm,1,ingroup,1,6.6,5.8,3.8,8.4,3.6,7.0,7.2,6.8,7.0,6.8,3.8,6.6,3.6,62,64,1,940,hiring
+P004,S03,fairness_norm,2,outgroup,0,6.6,5.8,4.2,8.4,3.6,6.6,6.8,6.6,6.4,6.2,4.2,6.0,4.2,58,58,1,980,hiring
+P005,S04,superordinate_identity,1,ingroup,1,7.2,5.4,3.0,5.8,3.0,7.4,7.2,7.0,7.4,7.2,3.4,6.8,3.2,64,66,1,900,resource
+P005,S04,superordinate_identity,2,outgroup,0,7.2,5.4,3.2,5.8,3.0,7.0,6.8,6.8,6.8,6.8,3.8,6.4,3.8,62,62,1,930,resource

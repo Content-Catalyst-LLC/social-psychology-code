@@ -1,0 +1,25 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+site_id,string,Institution/site/context identifier,non-empty
+condition,string,Experimental or observational condition,control|minimal_group|identity_salience|threat_prime|fairness_norm|superordinate_identity|contact_prime|scarcity|abundance
+trial,integer,Trial number,1+
+target_group_relation,string,Relation of target to participant,ingroup|outgroup|neutral
+ingroup_target,integer,Whether target is an ingroup member,0|1
+group_identification,numeric,Strength of identification with participant's group,0-10
+identity_salience,numeric,Degree to which group identity is active,0-10
+perceived_threat,numeric,Threat to group values/status/resources/safety,0-10
+norm_strength,numeric,Perceived norm of loyalty/favoritism/fairness,0-10
+status_asymmetry,numeric,Power/status asymmetry between groups,0-10
+trust_rating,numeric,Trust in target,0-10
+fairness_rating,numeric,Fairness evaluation of target or treatment,0-10
+competence_rating,numeric,Perceived competence of target,0-10
+warmth_rating,numeric,Perceived warmth of target,0-10
+empathy_rating,numeric,Empathy toward target,0-10
+moral_blame,numeric,Blame assigned to target after negative act,0-10
+moral_forgiveness,numeric,Willingness to forgive/contextualize target behavior,0-10
+punishment_severity,numeric,Severity of sanction assigned to target,0-10
+reward_allocation,numeric,Reward allocated to target,0-100
+resource_allocation,numeric,General resource allocation to target,0-100
+cooperation_choice,integer,Whether participant cooperated with target,0|1
+response_time_ms,numeric,Response time in milliseconds,150+
+institutional_context,string,Decision context,hiring|promotion|grading|discipline|resource|trust_game|moral_vignette|minimal_group|political_judgment
