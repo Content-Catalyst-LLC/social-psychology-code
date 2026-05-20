@@ -1,0 +1,11 @@
+participant,site_id,condition,trial,outcome_valence,actor_target,self_other,internal_attribution,external_attribution,stable_attribution,controllable_attribution,responsibility_rating,blame_rating,credit_claiming,excuse_making,self_esteem,ego_threat,task_importance,outcome_expectancy,perceived_fairness,evidence_strength,learning_intention,accountability_pressure,response_time_ms
+P001,S01,private_feedback,1,positive,self,self,8.4,2.0,7.6,8.0,8.2,1.0,8.6,1.2,7.4,2.0,8.0,6.4,7.0,5.2,6.8,2.0,820
+P001,S01,private_feedback,2,negative,self,self,3.4,7.6,3.2,3.0,3.6,4.2,1.8,7.8,7.4,7.8,8.0,4.2,4.0,5.8,4.8,2.0,1110
+P002,S01,accountability,1,positive,self,self,7.2,3.0,6.8,7.0,7.0,1.4,7.2,1.8,6.2,2.4,7.4,6.2,6.8,7.8,7.2,8.4,920
+P002,S01,accountability,2,negative,self,self,5.0,5.4,4.8,4.6,5.2,5.4,2.8,5.6,6.2,6.8,7.4,4.8,5.8,8.2,6.4,8.4,1040
+P003,S02,ego_threat,1,positive,self,self,8.8,1.8,8.0,8.4,8.6,0.8,8.8,1.0,8.0,2.2,8.8,5.8,6.8,5.4,6.2,2.2,850
+P003,S02,ego_threat,2,negative,self,self,2.8,8.4,2.6,2.8,3.0,3.6,1.2,8.8,8.0,9.0,8.8,3.8,3.2,5.0,3.8,2.2,1220
+P004,S03,public_review,1,negative,leader,other,6.2,4.2,6.0,6.4,6.8,6.6,2.4,4.0,6.0,5.8,8.0,5.0,5.8,8.6,6.6,8.8,980
+P005,S04,team_context,1,positive,team,self,7.6,3.0,6.8,7.0,7.4,1.2,7.8,1.8,6.8,2.4,7.2,6.2,6.4,6.0,6.8,4.0,900
+P005,S04,team_context,2,negative,team,self,4.0,7.0,3.8,3.8,4.4,5.8,2.0,7.0,6.8,7.2,7.2,4.4,4.8,5.8,5.0,4.0,1160
+P006,S05,high_evidence,1,negative,self,self,5.6,5.8,5.0,5.0,5.4,5.8,2.8,5.8,6.6,6.8,7.0,5.2,5.8,9.0,6.8,7.6,1010

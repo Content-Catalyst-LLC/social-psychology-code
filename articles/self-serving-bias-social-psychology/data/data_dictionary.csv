@@ -1,0 +1,25 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental or observational condition,control|ego_threat|accountability|public_review|private_feedback|high_evidence|ambiguous_evidence|team_context|leadership_context
+trial,integer,Trial number,1+
+outcome_valence,string,Valence of outcome,positive|negative|mixed|ambiguous
+actor_target,string,Who is being judged,self|other|team|leader|institution|outgroup
+self_other,string,Simplified self/other category,self|other
+internal_attribution,numeric,Attribution to ability/effort/character/competence,0-10
+external_attribution,numeric,Attribution to luck/situation/constraints/context,0-10
+stable_attribution,numeric,Attribution to stable/enduring causes,0-10
+controllable_attribution,numeric,Attribution to controllable causes,0-10
+responsibility_rating,numeric,Responsibility assigned to actor,0-10
+blame_rating,numeric,Blame assigned after negative or mixed outcome,0-10
+credit_claiming,numeric,Credit claimed for positive or mixed outcome,0-10
+excuse_making,numeric,Deflection of responsibility for negative or mixed outcome,0-10
+self_esteem,numeric,State or trait self-esteem,0-10
+ego_threat,numeric,Threat to competence/status/moral self-concept,0-10
+task_importance,numeric,Importance of the task/outcome,0-10
+outcome_expectancy,numeric,Expectedness of the outcome before feedback,0-10
+perceived_fairness,numeric,Perceived fairness of task/evaluation/context,0-10
+evidence_strength,numeric,Strength of available causal evidence,0-10
+learning_intention,numeric,Willingness to learn/change after outcome,0-10
+accountability_pressure,numeric,Expected need to justify attribution to evidence/others,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
