@@ -1,0 +1,10 @@
+participant,site_id,condition,trial,scenario_domain,moral_justification,euphemistic_labeling,advantageous_comparison,displaced_responsibility,diffused_responsibility,consequence_distortion,dehumanization,blame_attribution,harm_visibility,perceived_agency,responsibility_clarity,institutional_pressure,authority_pressure,group_norm_strength,victim_distance,empathy,guilt,harmful_decision,policy_endorsement,unethical_intention,response_time_ms
+P001,S01,moral_justification,1,politics,8.4,3.0,4.2,3.0,3.2,4.0,3.6,3.8,4.2,5.6,4.4,6.0,5.0,6.4,5.8,3.8,3.4,1,7.2,6.8,980
+P002,S01,euphemistic_labeling,1,organization,4.0,8.2,4.4,5.0,5.2,6.0,3.2,3.0,3.8,5.0,4.2,6.6,4.4,6.8,6.2,4.2,3.6,1,6.8,6.2,920
+P003,S02,authority_pressure,1,war,5.6,5.2,5.8,8.6,6.8,6.2,6.8,5.4,3.2,2.8,3.0,7.8,8.8,7.2,7.4,2.4,2.0,1,8.0,7.6,1100
+P004,S02,accountability,1,organization,3.2,3.0,3.4,3.0,3.4,3.2,2.6,2.8,8.2,8.0,8.6,4.0,3.2,3.4,2.8,7.6,7.8,0,2.6,2.4,1250
+P005,S03,diffusion,1,technology,4.8,5.4,4.4,5.8,8.2,6.8,3.8,4.2,3.4,4.0,3.6,7.0,5.2,7.8,6.4,3.6,3.2,1,7.0,6.6,1040
+P006,S03,dehumanization,1,public_policy,5.0,4.6,5.4,5.2,5.6,5.8,8.4,7.6,3.0,4.6,3.8,7.4,5.8,7.2,7.8,2.0,1.8,1,8.4,7.8,1160
+P007,S04,low_harm_visibility,1,environment,5.4,6.2,5.0,5.8,6.6,8.6,3.0,3.2,2.4,5.0,3.4,7.6,4.8,7.0,8.2,3.4,2.8,1,7.8,7.4,1020
+P008,S04,victim_blame,1,school,4.6,4.0,4.4,4.2,4.6,4.8,5.8,8.6,3.6,5.2,4.0,6.4,4.2,6.8,6.6,2.8,2.2,1,7.4,7.0,1080
+P009,S05,control,1,healthcare,3.0,3.2,3.4,3.6,3.6,3.4,2.8,3.0,7.4,7.0,7.2,3.8,3.2,4.0,3.2,7.2,7.0,0,3.0,2.8,970

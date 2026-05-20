@@ -1,0 +1,27 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental or observational condition,control|moral_justification|euphemistic_labeling|advantageous_comparison|authority_pressure|diffusion|low_harm_visibility|dehumanization|victim_blame|accountability
+trial,integer,Trial number,1+
+scenario_domain,string,Domain of scenario,organization|politics|war|environment|technology|school|healthcare|public_policy
+moral_justification,numeric,Harmful conduct framed as serving a worthy purpose,0-10
+euphemistic_labeling,numeric,Use of sanitizing or bureaucratic language,0-10
+advantageous_comparison,numeric,Comparison with worse alternatives,0-10
+displaced_responsibility,numeric,Responsibility shifted to authority/system/rules,0-10
+diffused_responsibility,numeric,Responsibility spread across group/system,0-10
+consequence_distortion,numeric,Harm minimized/denied/abstracted,0-10
+dehumanization,numeric,Targets portrayed as less fully human or undeserving,0-10
+blame_attribution,numeric,Victims blamed for harm,0-10
+harm_visibility,numeric,Consequences visible/concrete/proximate,0-10
+perceived_agency,numeric,Personal sense of choice and agency,0-10
+responsibility_clarity,numeric,Traceability and clarity of responsibility,0-10
+institutional_pressure,numeric,Pressure from institution/incentives/procedures,0-10
+authority_pressure,numeric,Pressure from authority figures or orders,0-10
+group_norm_strength,numeric,Strength of group norm supporting harmful act,0-10
+victim_distance,numeric,Social/physical/psychological distance from victim,0-10
+empathy,numeric,Empathy toward target/victim,0-10
+guilt,numeric,Anticipated or felt guilt,0-10
+harmful_decision,integer,Whether participant endorses/enacts harmful option,0|1
+policy_endorsement,numeric,Support for harmful policy or practice,0-10
+unethical_intention,numeric,Intent or willingness to engage in unethical action,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
