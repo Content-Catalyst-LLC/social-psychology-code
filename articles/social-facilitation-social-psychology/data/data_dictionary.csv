@@ -1,0 +1,27 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental condition,alone|audience|coaction|evaluation|non_evaluative_presence|digital_monitoring|supportive_audience|critical_audience
+task_domain,string,Task domain,motor|cognitive|verbal|perceptual|sport|workplace|digital
+trial,integer,Trial number,1+
+audience_present,integer,Whether an audience is present,0|1
+coaction_present,integer,Whether coactors are present,0|1
+evaluation_pressure,numeric,Perceived evaluation pressure,0-10
+observer_expertise,numeric,Perceived observer expertise/status,0-10
+audience_size,integer,Number of observers,0+
+audience_valence,numeric,Supportive to critical audience rating,-5 to 5
+task_difficulty,numeric,Task difficulty,0-10
+task_mastery,numeric,Practice/mastery/familiarity,0-10
+dominant_response_correct,integer,Whether dominant response is correct,0|1
+baseline_skill,numeric,Baseline skill estimate,0-10
+arousal_index,numeric,Physiological/subjective arousal index,0-10
+distraction_index,numeric,Distraction or divided attention index,0-10
+attentional_conflict,numeric,Task-audience attentional conflict,0-10
+perceived_scrutiny,numeric,Subjective experience of being watched or judged,0-10
+performance_score,numeric,Primary performance outcome,0-100
+accuracy,numeric,Accuracy proportion,0-1
+error_rate,numeric,Error rate proportion,0-1
+response_time_ms,numeric,Response time in milliseconds,150+
+digital_monitoring,integer,Whether digital monitoring is active,0|1
+social_anxiety,numeric,Individual difference / state social anxiety,0-10
