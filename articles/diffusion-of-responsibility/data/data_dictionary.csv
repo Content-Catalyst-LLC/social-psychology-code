@@ -1,0 +1,23 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental or observational condition,alone|small_group|large_group|ambiguous|clear_emergency|direct_appeal|role_assigned|evaluation_high|leadership_cue|organizational_fragmentation
+trial,integer,Trial number,1+
+scenario_domain,string,Domain of scenario,emergency|workplace|school|public_safety|healthcare|technology|environment|governance
+bystander_count,integer,Number of perceived bystanders,0+
+group_size,integer,Size of relevant group,1+
+ambiguity_level,numeric,Uncertainty about whether action is needed,0-10
+private_concern,numeric,Participant's private concern,0-10
+perceived_group_concern,numeric,Participant's estimate of others' concern,0-10
+evaluation_apprehension,numeric,Fear of embarrassment or negative judgment,0-10
+perceived_responsibility,numeric,Felt personal responsibility to act,0-10
+role_clarity,numeric,Clarity of response role and responsibility,0-10
+intervention_efficacy,numeric,Perceived ability to help effectively,0-10
+social_visibility,numeric,Visibility of action or inaction to others,0-10
+leadership_cue,numeric,Strength of leadership or authority signal to act,0-10
+accountability_assignment,numeric,Specificity of assigned accountability,0-10
+organizational_fragmentation,numeric,Fragmentation across roles/units/systems,0-10
+intervention_decision,integer,Whether participant intervened/helped/escalated,0|1
+reporting_decision,integer,Whether participant reported or escalated issue,0|1
+intervention_delay_seconds,numeric,Delay before action or non-action decision,0+
+response_time_ms,numeric,Response time in milliseconds,150+
