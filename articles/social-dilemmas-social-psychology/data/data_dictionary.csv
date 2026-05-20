@@ -1,0 +1,24 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+group_id,string,Group identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental condition,baseline|communication|norm_salient|monitoring|sanction|legitimacy_high|legitimacy_low|identity_shared|asymmetry|polycentric
+dilemma_type,string,Type of social dilemma,public_goods|commons|intergenerational|threshold_public_good|nested_public_good
+round,integer,Round number,1+
+endowment,numeric,Participant endowment,0+
+contribution,numeric,Contribution to public good,0 to endowment
+extraction,numeric,Extraction from commons resource,0+
+mpcr,numeric,Marginal per-capita return,0+
+trust_score,numeric,Trust in other participants,0-10
+norm_salience,numeric,Strength of cooperative norm,0-10
+enforcement_signal,numeric,Perceived enforcement strength,0-10
+fairness_score,numeric,Perceived fairness of situation/rules/outcomes,0-10
+institutional_legitimacy,numeric,Perceived legitimacy of rules/institution,0-10
+monitoring_strength,numeric,Ability to observe noncooperation,0-10
+sanction_probability,numeric,Probability of sanction for defection,0-1
+sanction_severity,numeric,Severity of sanction,0-10
+reciprocity_expectation,numeric,Expectation that cooperation will be reciprocated,0-10
+resource_stock,numeric,Commons resource stock,0+
+group_welfare,numeric,Aggregate group welfare/payoff,any numeric
+individual_payoff,numeric,Participant payoff,any numeric
+response_time_ms,numeric,Response time in milliseconds,150+

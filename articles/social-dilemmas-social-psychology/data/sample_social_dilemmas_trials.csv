@@ -1,0 +1,11 @@
+participant,group_id,site_id,condition,dilemma_type,round,endowment,contribution,extraction,mpcr,trust_score,norm_salience,enforcement_signal,fairness_score,institutional_legitimacy,monitoring_strength,sanction_probability,sanction_severity,reciprocity_expectation,resource_stock,group_welfare,individual_payoff,response_time_ms
+P001,G001,S01,baseline,public_goods,1,20,8,0,0.4,5.2,4.0,1.0,5.0,4.8,1.0,0.0,0.0,5.0,100,64,21.2,940
+P002,G001,S01,baseline,public_goods,1,20,7,0,0.4,5.0,4.0,1.0,4.8,4.8,1.0,0.0,0.0,4.8,100,64,22.2,980
+P003,G001,S01,baseline,public_goods,1,20,9,0,0.4,5.4,4.2,1.0,5.2,4.8,1.0,0.0,0.0,5.3,100,64,20.2,910
+P004,G001,S01,baseline,public_goods,1,20,6,0,0.4,4.8,3.8,1.0,4.6,4.8,1.0,0.0,0.0,4.7,100,64,23.2,1010
+P005,G002,S02,sanction,public_goods,1,20,14,0,0.4,6.4,6.0,7.5,6.2,6.8,8.0,0.6,4.0,6.4,100,80,18.0,900
+P006,G002,S02,sanction,public_goods,1,20,13,0,0.4,6.0,6.2,7.4,6.0,6.8,8.0,0.6,4.0,6.0,100,80,19.0,870
+P007,G003,S03,communication,public_goods,1,20,15,0,0.4,7.2,7.5,2.0,7.0,6.8,2.0,0.0,0.0,7.4,100,84,18.6,840
+P008,G004,S04,legitimacy_low,public_goods,1,20,5,0,0.4,3.8,3.0,5.0,2.8,2.0,6.0,0.5,3.5,3.2,100,48,24.2,1100
+P009,G005,S05,monitoring,commons,1,20,0,7,0.0,5.8,5.6,8.2,5.8,6.0,8.5,0.4,3.0,5.6,92,62,15.4,960
+P010,G005,S05,monitoring,commons,1,20,0,6,0.0,6.0,5.8,8.4,6.0,6.2,8.5,0.4,3.0,5.8,92,62,16.2,930
