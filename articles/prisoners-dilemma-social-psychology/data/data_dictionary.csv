@@ -1,0 +1,28 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+dyad_id,string,Dyad or pair identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental condition,one_shot|repeated|communication|no_communication|reputation|sanction|monitoring|identity_in_group|identity_out_group|institutional_enforcement
+round,integer,Round number,1+
+horizon_type,string,Game horizon,one_shot|fixed|indefinite
+own_choice,string,Participant choice,cooperate|defect
+partner_choice,string,Partner choice,cooperate|defect
+cooperate,integer,Participant cooperation indicator,0|1
+partner_cooperate,integer,Partner cooperation indicator,0|1
+own_payoff,numeric,Participant payoff,any numeric
+partner_payoff,numeric,Partner payoff,any numeric
+cumulative_payoff,numeric,Cumulative payoff through this round,any numeric
+temptation_payoff,numeric,T payoff,any numeric
+reward_payoff,numeric,R payoff,any numeric
+punishment_payoff,numeric,P payoff,any numeric
+sucker_payoff,numeric,S payoff,any numeric
+trust_score,numeric,Trust in partner,0-10
+fairness_score,numeric,Perceived fairness,0-10
+expected_partner_cooperation,numeric,Expected probability/score of partner cooperation,0-10
+communication_access,integer,Whether communication is available,0|1
+punishment_available,integer,Whether punishment/sanction is available,0|1
+reputation_visibility,numeric,Visibility of behavior to future partners/rounds,0-10
+monitoring_strength,numeric,Ability to detect defection reliably,0-10
+institutional_enforcement,numeric,Strength of institutional enforcement/sanction,0-10
+social_identity_salience,numeric,Strength of shared or salient social identity,0-10
+response_time_ms,numeric,Response time in milliseconds,150+

@@ -1,0 +1,11 @@
+participant,dyad_id,site_id,condition,round,horizon_type,own_choice,partner_choice,cooperate,partner_cooperate,own_payoff,partner_payoff,cumulative_payoff,temptation_payoff,reward_payoff,punishment_payoff,sucker_payoff,trust_score,fairness_score,expected_partner_cooperation,communication_access,punishment_available,reputation_visibility,monitoring_strength,institutional_enforcement,social_identity_salience,response_time_ms
+P001,D001,S01,one_shot,1,one_shot,defect,cooperate,0,1,5,0,5,5,3,1,0,4.2,3.8,4.0,0,0,1.0,2.0,0.0,2.0,940
+P002,D001,S01,one_shot,1,one_shot,cooperate,defect,1,0,0,5,0,5,3,1,0,5.4,4.2,5.0,0,0,1.0,2.0,0.0,2.0,980
+P003,D002,S01,communication,1,repeated,cooperate,cooperate,1,1,3,3,3,5,3,1,0,7.2,7.0,7.5,1,0,4.0,4.0,0.0,6.5,860
+P004,D002,S01,communication,1,repeated,cooperate,cooperate,1,1,3,3,3,5,3,1,0,7.4,7.2,7.4,1,0,4.0,4.0,0.0,6.4,890
+P005,D003,S02,reputation,1,indefinite,cooperate,cooperate,1,1,3,3,3,5,3,1,0,6.8,6.6,7.0,0,0,8.0,5.0,0.0,5.2,910
+P006,D003,S02,reputation,2,indefinite,cooperate,defect,1,0,0,5,3,5,3,1,0,5.6,4.8,5.2,0,0,8.0,5.0,0.0,5.2,1110
+P007,D004,S03,sanction,1,repeated,cooperate,cooperate,1,1,3,3,3,5,3,1,0,6.2,6.4,6.0,0,1,5.0,7.0,7.5,4.8,920
+P008,D004,S03,sanction,2,repeated,defect,cooperate,0,1,3.5,-1,6.5,5,3,1,0,4.6,3.8,4.2,0,1,5.0,7.0,7.5,1080
+P009,D005,S04,identity_in_group,1,repeated,cooperate,cooperate,1,1,3,3,3,5,3,1,0,8.0,7.6,8.2,0,0,4.0,4.0,0.0,9.0,870
+P010,D006,S04,identity_out_group,1,repeated,defect,cooperate,0,1,5,0,5,5,3,1,0,3.8,3.2,3.4,0,0,4.0,4.0,0.0,8.5,1030
