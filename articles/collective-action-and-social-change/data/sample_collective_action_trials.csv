@@ -1,0 +1,11 @@
+participant,group_id,condition,trial,movement_domain,identity_strength,perceived_injustice,moral_outrage,collective_efficacy,network_support,mobilization_exposure,participation_cost,perceived_repression_risk,free_rider_incentive,participation_intention,action_participation,digital_engagement,offline_engagement,recruitment_source,institutional_response,perceived_legitimacy,movement_outcome,response_time_ms
+P001,G01,identity_prime,1,labor,8.2,7.4,7.6,6.8,7.2,6.4,3.2,2.8,4.0,0.82,1,6.0,5.0,friend,negotiation,7.8,5.8,940
+P002,G01,control,1,labor,5.6,6.1,5.7,4.8,4.2,3.8,4.8,3.4,5.2,0.48,0,2.0,0.0,none,none,5.4,3.2,1260
+P003,G02,injustice_prime,1,housing,6.4,8.8,8.4,5.4,5.8,5.0,5.2,4.8,4.4,0.72,1,4.0,4.0,organization,symbolic,7.0,4.6,1110
+P004,G02,efficacy_prime,1,housing,6.8,7.2,7.0,8.0,6.6,6.2,4.2,4.0,4.5,0.78,1,5.0,5.0,organization,concession,7.4,6.8,980
+P005,G03,network_mobilization,1,climate,7.0,7.6,7.4,6.4,8.2,8.0,3.8,3.2,5.0,0.84,1,8.0,4.0,digital_platform,reform,7.6,6.2,860
+P006,G03,digital_mobilization,1,climate,6.2,7.0,6.6,5.8,7.8,8.8,2.8,2.4,5.8,0.76,1,9.0,1.0,digital_platform,symbolic,6.8,4.8,790
+P007,G04,high_cost,1,democracy,7.4,8.2,8.0,6.2,6.0,5.4,8.4,7.8,5.0,0.46,0,3.0,0.0,media,repression,6.4,3.8,1480
+P008,G04,repression_risk,1,democracy,7.8,8.6,8.6,5.8,5.6,5.2,7.0,9.0,4.2,0.42,0,2.0,0.0,friend,repression,6.8,3.4,1560
+P009,G05,offline_mobilization,1,racial_justice,8.8,9.0,9.0,7.2,7.6,7.0,4.4,5.0,4.0,0.88,1,6.0,8.0,organization,negotiation,8.2,6.0,920
+P010,G05,control,1,racial_justice,6.0,7.8,7.2,4.6,4.2,3.0,4.8,4.6,6.0,0.52,0,2.0,0.0,none,none,6.2,3.6,1320

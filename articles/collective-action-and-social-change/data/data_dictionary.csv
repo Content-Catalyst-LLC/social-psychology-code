@@ -1,0 +1,24 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+group_id,string,Group/community/movement identifier,non-empty
+condition,string,Experimental or observational condition,control|identity_prime|injustice_prime|efficacy_prime|network_mobilization|high_cost|repression_risk|digital_mobilization|offline_mobilization
+trial,integer,Trial or wave number,1+
+movement_domain,string,Domain of collective action,labor|civil_rights|climate|gender_justice|racial_justice|housing|health|education|democracy|community
+identity_strength,numeric,Strength of identification with relevant group,0-10
+perceived_injustice,numeric,Perceived unfairness/illegitimacy,0-10
+moral_outrage,numeric,Group-based anger or moral urgency,0-10
+collective_efficacy,numeric,Belief that group action can succeed,0-10
+network_support,numeric,Supportive interpersonal/organizational/digital ties,0-10
+mobilization_exposure,numeric,Exposure to calls for action or organizing messages,0-10
+participation_cost,numeric,Expected personal cost of participation,0-10
+perceived_repression_risk,numeric,Expected risk of sanctions/repression,0-10
+free_rider_incentive,numeric,Benefit available without participating,0-10
+participation_intention,numeric,Intention to participate,0-1
+action_participation,integer,Whether participant engaged in action,0|1
+digital_engagement,numeric,Digital participation intensity,0-10
+offline_engagement,numeric,Offline participation intensity,0-10
+recruitment_source,string,How participant was recruited,none|friend|organization|workplace|school|religious|digital_platform|media|family
+institutional_response,string,Observed/perceived institutional response,none|symbolic|negotiation|concession|reform|repression|cooptation|backlash
+perceived_legitimacy,numeric,Perceived legitimacy of the movement/action,0-10
+movement_outcome,numeric,Perceived or observed movement progress,0-10
+response_time_ms,numeric,Decision response time in milliseconds,150+
