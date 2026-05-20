@@ -1,0 +1,11 @@
+participant,site_id,condition,wave,target_group,group_status,contact_frequency,contact_quality,equal_status,common_goals,cooperation,institutional_support,voluntariness,negative_contact,indirect_contact,intergroup_anxiety,empathy,perspective_taking,trust,perceived_threat,prejudice_pre,prejudice_post,stereotype_endorsement,future_contact_willingness,social_distance,inclusive_norm_perception,response_time_ms
+P001,S01,optimal_contact,1,outgroup_a,dominant,7.2,8.1,8.4,8.0,8.2,8.8,8.0,1.2,3.4,3.2,7.8,7.4,7.6,2.8,6.5,3.4,3.2,8.2,2.8,8.0,920
+P002,S01,control,1,outgroup_a,dominant,2.4,3.0,3.2,3.0,2.8,3.4,4.0,2.2,1.8,6.6,4.2,4.0,4.0,6.8,6.8,6.2,6.4,3.8,6.2,3.8,1180
+P003,S02,equal_status,1,outgroup_b,marginalized,5.8,6.2,8.0,5.6,5.4,6.2,7.2,2.4,2.6,4.6,6.2,6.0,6.4,4.8,6.0,4.8,5.2,6.4,4.6,6.6,1040
+P004,S02,negative_contact,1,outgroup_b,marginalized,5.0,2.2,2.0,2.4,2.0,2.4,3.0,8.0,1.2,8.4,3.4,3.2,3.0,8.0,5.8,7.6,7.2,2.4,7.8,2.6,1420
+P005,S03,common_goals,1,outgroup_c,dominant,6.0,6.8,5.8,8.4,6.8,6.4,7.0,1.6,2.4,4.0,6.8,6.6,6.8,3.6,6.4,4.4,4.8,7.2,4.0,6.8,980
+P006,S03,cooperation,1,outgroup_c,marginalized,6.6,7.2,6.4,7.0,8.6,6.8,7.4,1.8,2.8,3.8,7.0,7.0,7.2,3.4,6.2,4.0,4.4,7.6,3.8,7.2,960
+P007,S04,institutional_support,1,outgroup_d,dominant,5.4,6.6,5.6,5.8,5.6,8.8,7.2,1.6,2.0,4.2,6.6,6.4,6.8,3.8,6.6,4.6,5.0,7.0,4.2,7.4,1010
+P008,S04,indirect_contact,1,outgroup_d,marginalized,3.8,5.0,4.8,4.6,4.4,5.0,6.4,1.8,8.2,5.0,5.8,5.8,5.8,4.8,6.2,5.2,5.6,5.8,5.2,5.8,1120
+P009,S05,extended_contact,1,outgroup_e,dominant,3.2,5.4,5.0,5.2,5.0,5.2,6.0,2.0,7.8,5.2,5.6,5.8,5.6,5.0,6.4,5.4,5.6,5.8,5.4,5.6,1090
+P010,S05,optimal_contact,2,outgroup_e,dominant,7.8,8.6,8.6,8.4,8.6,8.4,8.2,0.8,3.8,2.8,8.2,8.0,8.0,2.4,6.2,2.8,2.8,8.6,2.6,8.2,860

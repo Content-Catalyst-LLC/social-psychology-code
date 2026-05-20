@@ -1,0 +1,28 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+site_id,string,School/workplace/community/program identifier,non-empty
+condition,string,Experimental or observational condition,control|equal_status|common_goals|cooperation|institutional_support|optimal_contact|negative_contact|indirect_contact|extended_contact
+wave,integer,Measurement wave,1+
+target_group,string,Outgroup or comparison group,non-empty
+group_status,string,Participant group status,dominant|marginalized|mixed|other
+contact_frequency,numeric,Frequency of intergroup contact,0-10
+contact_quality,numeric,Positive quality/depth of contact,0-10
+equal_status,numeric,Equal-status condition strength,0-10
+common_goals,numeric,Common-goal condition strength,0-10
+cooperation,numeric,Cooperative interdependence,0-10
+institutional_support,numeric,Authority/legal/norm support for contact,0-10
+voluntariness,numeric,Voluntary participation,0-10
+negative_contact,numeric,Threatening/hostile/unequal contact,0-10
+indirect_contact,numeric,Extended/vicarious/imagined contact,0-10
+intergroup_anxiety,numeric,Anxiety about outgroup interaction,0-10
+empathy,numeric,Empathy toward target outgroup,0-10
+perspective_taking,numeric,Perspective-taking score,0-10
+trust,numeric,Trust toward target outgroup,0-10
+perceived_threat,numeric,Perceived symbolic/material/status threat,0-10
+prejudice_pre,numeric,Baseline prejudice score,0-10
+prejudice_post,numeric,Post-contact prejudice score,0-10
+stereotype_endorsement,numeric,Stereotype endorsement,0-10
+future_contact_willingness,numeric,Willingness for future contact,0-10
+social_distance,numeric,Desired social distance,0-10
+inclusive_norm_perception,numeric,Perceived inclusive norm strength,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
