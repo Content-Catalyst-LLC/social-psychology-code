@@ -1,0 +1,9 @@
+participant,site_id,condition,trial,comparison_type,comparison_domain,reference_group,self_standing,reference_standing,comparison_gap,attainability,similarity,identity_relevance,social_comparison_orientation,self_eval_pre,self_eval_post,motivation_score,envy,inspiration,discouragement,reassurance,self_esteem,perceived_fairness,relative_deprivation,norm_perception,digital_exposure,response_time_ms
+P001,S01,attainable_upward,1,upward,achievement,peers,5.2,7.4,-2.2,8.0,7.6,8.2,7.0,5.8,5.6,8.0,4.2,7.6,3.2,2.0,5.8,6.4,3.4,7.2,2.0,920
+P002,S01,unattainable_upward,1,upward,appearance,influencers,4.8,9.2,-4.4,2.0,3.0,8.0,7.8,5.4,3.8,3.2,7.8,2.6,7.4,1.4,3.6,3.0,6.8,8.4,8.8,1110
+P003,S02,downward,1,downward,health,peers,6.8,3.4,3.4,5.0,5.6,7.0,5.4,5.6,6.8,5.0,1.4,2.2,1.6,7.2,6.6,5.8,1.8,4.0,1.2,880
+P004,S02,lateral,1,lateral,productivity,coworkers,6.0,6.2,-0.2,6.4,8.0,7.4,6.0,6.0,6.1,6.2,2.0,3.4,2.4,4.6,6.0,6.6,2.4,6.4,1.0,940
+P005,S03,digital_feed,1,digital,status,influencers,4.6,8.8,-4.2,2.4,2.8,7.8,8.4,5.2,3.6,3.0,8.0,2.4,7.6,1.2,3.4,2.8,7.4,8.8,9.2,1240
+P006,S03,organizational_benchmark,1,organizational,income,coworkers,5.0,7.2,-2.2,5.8,7.2,8.4,6.8,6.2,5.0,6.8,5.4,4.2,5.2,2.6,5.0,4.2,6.4,7.8,1.2,1030
+P007,S04,relative_deprivation,1,group_based,status,profession,4.8,7.8,-3.0,4.2,6.0,8.8,7.6,5.8,4.2,5.2,7.2,3.2,6.8,1.8,4.0,3.6,8.6,7.4,2.0,1160
+P008,S04,control,1,lateral,ability,peers,6.0,6.1,-0.1,6.0,6.2,6.4,4.8,6.0,5.9,5.8,2.4,3.0,2.8,4.8,5.8,6.0,2.6,5.6,1.0,960

@@ -1,0 +1,28 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental or observational condition,control|upward|downward|lateral|attainable_upward|unattainable_upward|digital_feed|organizational_benchmark|relative_deprivation
+trial,integer,Trial number,1+
+comparison_type,string,Comparison type,upward|downward|lateral|temporal|group_based|digital|organizational|institutional
+comparison_domain,string,Domain of comparison,ability|income|appearance|status|morality|productivity|health|achievement|belonging
+reference_group,string,Relevant comparison group,peers|coworkers|friends|family|influencers|profession|organization|nation|classmates
+self_standing,numeric,Perceived self-standing on focal domain,0-10
+reference_standing,numeric,Perceived comparison target/reference standing,0-10
+comparison_gap,numeric,Self minus reference standing,-10 to 10
+attainability,numeric,Perceived attainability of reference standing,0-10
+similarity,numeric,Perceived similarity to target/reference group,0-10
+identity_relevance,numeric,Importance of comparison domain to self-concept,0-10
+social_comparison_orientation,numeric,Individual tendency to compare,0-10
+self_eval_pre,numeric,Baseline self-evaluation,0-10
+self_eval_post,numeric,Post-comparison self-evaluation,0-10
+motivation_score,numeric,Post-comparison motivation/effort intention,0-10
+envy,numeric,Envy response,0-10
+inspiration,numeric,Inspiration response,0-10
+discouragement,numeric,Discouragement response,0-10
+reassurance,numeric,Reassurance response,0-10
+self_esteem,numeric,Self-esteem after comparison,0-10
+perceived_fairness,numeric,Fairness/legitimacy of comparison standard,0-10
+relative_deprivation,numeric,Perceived disadvantage with grievance,0-10
+norm_perception,numeric,Perceived group norm or benchmark strength,0-10
+digital_exposure,numeric,Intensity of digital comparison exposure,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
