@@ -1,0 +1,30 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+group_id,string,Group/community identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Governance condition,open_access|communication|boundary_clarity|monitoring|graduated_sanctions|participatory_rules|external_rules|legitimacy_high|legitimacy_low|polycentric
+property_regime,string,Property-rights regime,open_access|common_property|private_property|state_property|hybrid|polycentric
+round,integer,Round or period number,1+
+resource_stock,numeric,Current stock of shared resource,0+
+carrying_capacity,numeric,Maximum resource capacity,0+
+regeneration_rate,numeric,Intrinsic regeneration rate,0+
+regeneration,numeric,Resource regenerated during period,0+
+extraction,numeric,Individual extraction,0+
+sustainable_threshold,numeric,Sustainable total extraction threshold,0+
+trust_score,numeric,Trust in other users' restraint,0-10
+legitimacy_score,numeric,Perceived legitimacy of rules/governance,0-10
+monitoring_credibility,numeric,Credibility of monitoring,0-10
+sanction_probability,numeric,Probability of sanction for over-extraction,0-1
+sanction_severity,numeric,Severity of sanction,0-10
+boundary_clarity,numeric,Clarity of user/resource boundaries,0-10
+rule_participation,numeric,User participation in rule-making,0-10
+conflict_resolution_access,numeric,Access to conflict-resolution mechanisms,0-10
+local_ecological_knowledge,numeric,Knowledge of resource dynamics,0-10
+perceived_fairness,numeric,Perceived fairness of burden/benefit distribution,0-10
+reciprocity_expectation,numeric,Expectation that restraint will be reciprocated,0-10
+stewardship_norm_salience,numeric,Strength of stewardship norm,0-10
+asymmetry_index,numeric,Inequality/asymmetry in resource access or burden,0-10
+depletion_risk,numeric,Estimated risk of resource depletion,0-1
+group_welfare,numeric,Aggregate group welfare/payoff,any numeric
+individual_payoff,numeric,Participant payoff,any numeric
+response_time_ms,numeric,Response time in milliseconds,150+

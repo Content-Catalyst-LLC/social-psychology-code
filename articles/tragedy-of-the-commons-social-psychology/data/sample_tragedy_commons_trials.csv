@@ -1,0 +1,9 @@
+participant,group_id,site_id,condition,property_regime,round,resource_stock,carrying_capacity,regeneration_rate,regeneration,extraction,sustainable_threshold,trust_score,legitimacy_score,monitoring_credibility,sanction_probability,sanction_severity,boundary_clarity,rule_participation,conflict_resolution_access,local_ecological_knowledge,perceived_fairness,reciprocity_expectation,stewardship_norm_salience,asymmetry_index,depletion_risk,group_welfare,individual_payoff,response_time_ms
+P001,G001,S01,open_access,open_access,1,100,150,0.12,4.0,9.0,4.0,3.8,2.0,1.0,0.0,0.0,1.5,1.0,1.0,4.0,3.0,3.4,3.2,4.0,0.62,64,29.0,970
+P002,G001,S01,open_access,open_access,1,100,150,0.12,4.0,8.5,4.0,4.0,2.1,1.0,0.0,0.0,1.5,1.0,1.0,4.2,3.2,3.8,3.4,4.0,0.60,64,28.5,1020
+P003,G002,S02,participatory_rules,common_property,1,100,150,0.12,4.0,4.2,4.0,7.2,8.0,7.0,0.4,3.0,8.0,8.5,7.6,7.8,8.0,7.8,8.2,1.0,0.20,82,24.2,860
+P004,G002,S02,participatory_rules,common_property,1,100,150,0.12,4.0,4.0,4.0,7.0,8.1,7.0,0.4,3.0,8.0,8.5,7.6,7.6,8.2,7.8,8.1,1.0,0.18,82,24.0,890
+P005,G003,S03,graduated_sanctions,common_property,1,100,150,0.12,4.0,5.0,4.0,6.5,7.2,8.4,0.7,4.0,7.2,6.8,7.0,6.8,7.0,6.8,7.2,2.0,0.25,78,23.0,910
+P006,G004,S04,legitimacy_low,state_property,1,100,150,0.12,4.0,8.0,4.0,3.2,2.4,6.0,0.5,4.0,5.0,1.5,2.0,4.0,2.0,3.0,3.2,6.5,0.58,66,26.0,1160
+P007,G005,S05,polycentric,polycentric,1,100,150,0.12,4.0,4.5,4.0,7.5,8.2,7.8,0.5,3.2,8.2,8.0,8.0,8.2,8.0,8.1,8.3,1.5,0.16,84,24.5,840
+P008,G006,S06,boundary_clarity,common_property,1,100,150,0.12,4.0,5.2,4.0,6.6,7.1,5.8,0.3,2.0,9.0,6.0,6.0,6.5,6.8,6.4,6.6,2.0,0.30,76,25.2,930
