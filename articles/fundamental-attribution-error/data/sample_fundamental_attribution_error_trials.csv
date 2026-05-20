@@ -1,0 +1,9 @@
+participant,site_id,condition,trial,actor_role,observer_role,behavior_valence,dispositional_attribution,situational_attribution,perceived_constraint,actual_constraint,choice_freedom,correspondence_inference,cognitive_load,perspective_taking,accountability_pressure,evidence_strength,empathy,moral_blame,punishment_recommendation,cultural_individualism,structural_awareness,response_time_ms
+P001,S01,low_choice,1,target,participant,ambiguous,7.4,3.2,3.0,8.0,2.4,7.2,4.0,2.8,2.0,5.2,3.4,6.2,5.8,7.2,3.2,980
+P002,S01,constraint_salient,1,target,participant,ambiguous,4.2,7.6,7.4,8.2,2.8,3.8,3.8,7.2,5.8,7.6,6.8,3.4,3.0,6.4,7.4,1040
+P003,S02,cognitive_load,1,employee,manager,norm_violation,8.0,2.8,2.4,7.2,3.2,7.8,8.8,2.2,2.4,4.6,2.8,7.8,7.4,7.6,2.8,760
+P004,S02,accountability,1,employee,manager,norm_violation,5.0,6.4,6.0,7.4,3.4,4.8,4.4,6.2,8.4,7.6,5.6,4.8,4.0,6.8,6.8,1160
+P005,S03,high_choice,1,target,participant,ambiguous,7.8,3.0,2.6,2.0,8.2,7.6,4.0,3.4,3.0,6.0,3.8,6.8,6.0,7.0,3.8,910
+P006,S03,perspective_taking,1,defendant,juror,negative,4.8,7.0,6.8,8.0,2.6,4.4,4.2,8.6,6.4,7.0,6.6,4.4,3.8,5.8,7.2,1200
+P007,S04,legal_judgment,1,defendant,juror,negative,8.2,2.6,2.4,7.8,3.0,8.0,5.0,2.8,3.2,5.4,2.8,8.0,8.4,7.4,3.0,1010
+P008,S04,organizational_blame,1,leader,analyst,negative,7.0,4.0,3.8,6.8,4.0,6.8,5.4,3.4,4.2,5.8,3.6,7.2,6.8,6.8,4.2,990

@@ -1,0 +1,24 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental or observational condition,control|low_choice|high_choice|constraint_salient|cognitive_load|perspective_taking|accountability|organizational_blame|legal_judgment
+trial,integer,Trial number,1+
+actor_role,string,Role of actor,target|employee|leader|student|defendant|citizen|outgroup_member
+observer_role,string,Role of observer,participant|manager|juror|teacher|voter|peer|analyst
+behavior_valence,string,Valence of behavior,positive|negative|ambiguous|norm_violation
+dispositional_attribution,numeric,Attribution to character/personality/attitude/intention,0-10
+situational_attribution,numeric,Attribution to constraints/context/role/incentives,0-10
+perceived_constraint,numeric,Observer recognition of constraint,0-10
+actual_constraint,numeric,Designed or coded level of constraint,0-10
+choice_freedom,numeric,Perceived actor freedom,0-10
+correspondence_inference,numeric,Inference that behavior reveals true attitude/disposition,0-10
+cognitive_load,numeric,Cognitive load during judgment,0-10
+perspective_taking,numeric,Strength of perspective-taking prompt or tendency,0-10
+accountability_pressure,numeric,Need to justify judgment with evidence,0-10
+evidence_strength,numeric,Strength of available causal evidence,0-10
+empathy,numeric,Empathy toward actor,0-10
+moral_blame,numeric,Moral blame assigned to actor,0-10
+punishment_recommendation,numeric,Severity of punishment/sanction/exclusion,0-10
+cultural_individualism,numeric,Individualistic orientation or cultural model score,0-10
+structural_awareness,numeric,Awareness of structural/contextual causes,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
