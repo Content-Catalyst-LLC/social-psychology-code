@@ -1,0 +1,11 @@
+participant,session_id,group_id,scenario_id,site_id,institution_context,paradigm,condition,trial,pre_attitude,post_attitude,counter_attitudinal_behavior,perceived_choice,perceived_responsibility,identity_threat,self_affirmation,external_justification,public_commitment,effort_cost,outcome_value,chosen_pre_value,chosen_post_value,rejected_pre_value,rejected_post_value,belief_disconfirmation_strength,commitment_strength,proselytizing_intensity,coherence_pressure,dissonance_discomfort,response_time_ms,institutional_identity_threat,sunk_cost,evidence_strength,accountability,policy_reversal_willingness
+P001,SE001,G001,SC001,S01,laboratory,forced_compliance,control,1,20,22,1,2,2,2,0,6,1,0,50,55,56,54,53,0,2,5,2,2,720,0,0,0,3,70
+P002,SE001,G001,SC002,S01,laboratory,forced_compliance,high_choice,1,22,45,8,9,8,7,0,1,7,0,58,55,62,54,48,0,7,22,8,7,980,0,0,0,4,55
+P003,SE002,G002,SC003,S02,laboratory,forced_compliance,high_reward,1,25,30,8,8,7,6,0,9,6,0,54,55,58,54,52,0,6,12,5,4,840,0,0,0,4,62
+P004,SE002,G002,SC004,S02,laboratory,free_choice,public_commitment,1,10,24,0,8,7,6,0,2,9,0,65,72,85,70,58,0,8,15,7,6,900,0,0,0,5,60
+P005,SE003,G003,SC005,S03,organization,effort_justification,severe_effort,1,5,28,0,8,8,7,0,2,8,9,82,58,80,56,48,0,8,28,8,7,1010,4,6,3,4,40
+P006,SE003,G003,SC006,S03,organization,effort_justification,mild_effort,1,6,12,0,6,6,3,0,2,5,2,56,58,62,56,54,0,4,10,3,3,760,2,3,3,5,65
+P007,SE004,G004,SC007,S04,politics,belief_disconfirmation,strong_disconfirmation,1,75,78,0,7,8,9,0,2,9,6,75,70,78,72,65,9,9,85,9,8,1120,6,8,9,3,25
+P008,SE004,G004,SC008,S04,politics,self_affirmation,affirmation,1,70,60,0,7,7,5,9,2,5,5,65,70,72,68,66,8,8,40,4,3,780,4,6,8,6,55
+P009,SE005,G005,SC009,S05,public_policy,institutional_escalation,public_commitment,1,40,58,0,8,8,8,0,2,10,8,60,55,72,57,48,8,9,65,9,8,1050,9,9,8,3,20
+P010,SE005,G005,SC010,S05,public_policy,institutional_escalation,private_commitment,1,40,45,0,5,5,4,0,2,3,6,55,55,62,57,54,8,6,25,5,4,820,4,7,8,8,65

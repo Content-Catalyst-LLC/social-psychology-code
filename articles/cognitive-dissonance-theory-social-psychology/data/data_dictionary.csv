@@ -1,0 +1,36 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Group/cohort identifier,non-empty
+scenario_id,string,Scenario/task identifier,non-empty
+site_id,string,Study/site/institution identifier,non-empty
+institution_context,string,Context,laboratory|politics|organization|consumer|religion|education|public_policy|platform
+paradigm,string,Experimental paradigm,forced_compliance|free_choice|effort_justification|belief_disconfirmation|self_affirmation|action_based|institutional_escalation
+condition,string,Experimental condition,control|low_choice|high_choice|low_reward|high_reward|mild_effort|severe_effort|affirmation|no_affirmation|public_commitment|private_commitment|strong_disconfirmation|weak_disconfirmation
+trial,integer,Trial number,1+
+pre_attitude,numeric,Attitude before dissonance induction,-100 to 100
+post_attitude,numeric,Attitude after dissonance induction,-100 to 100
+counter_attitudinal_behavior,numeric,Extent of behavior inconsistent with prior attitude,0-10
+perceived_choice,numeric,Perceived freedom of choice,0-10
+perceived_responsibility,numeric,Perceived responsibility for action/consequence,0-10
+identity_threat,numeric,Threat to self-concept or identity,0-10
+self_affirmation,numeric,Strength of self-affirmation intervention,0-10
+external_justification,numeric,External reward/excuse reducing dissonance,0-10
+public_commitment,numeric,Public visibility of commitment,0-10
+effort_cost,numeric,Cost/sacrifice/effort invested,0-10
+outcome_value,numeric,Evaluation of outcome/group/cause,0-100
+chosen_pre_value,numeric,Pre-choice value of chosen option,0-100
+chosen_post_value,numeric,Post-choice value of chosen option,0-100
+rejected_pre_value,numeric,Pre-choice value of rejected option,0-100
+rejected_post_value,numeric,Post-choice value of rejected option,0-100
+belief_disconfirmation_strength,numeric,Strength of contradictory evidence,0-10
+commitment_strength,numeric,Commitment to prior belief/decision,0-10
+proselytizing_intensity,numeric,Public advocacy after disconfirmation,0-100
+coherence_pressure,numeric,Pressure to restore cognitive consistency,0-10
+dissonance_discomfort,numeric,Self-reported discomfort/tension,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
+institutional_identity_threat,numeric,Threat to institutional legitimacy or identity,0-10
+sunk_cost,numeric,Prior investment in decision/policy,0-10
+evidence_strength,numeric,Strength of evidence favoring reversal,0-10
+accountability,numeric,Accountability/oversight pressure,0-10
+policy_reversal_willingness,numeric,Willingness to reverse course,0-100
