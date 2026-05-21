@@ -1,0 +1,24 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Group/cohort identifier,non-empty
+scenario_id,string,Scenario/task identifier,non-empty
+site_id,string,Study/site/institution identifier,non-empty
+institution_context,string,Institutional context,laboratory|education|employment|healthcare|criminal_justice|public_policy|platform|organization
+condition,string,Experimental or intervention condition,control|cognitive_load|time_pressure|accountability|counter_stereotypical_exposure|perspective_taking|structured_decision_support|delayed_followup
+trial,integer,Trial number,1+
+target_category,string,Social target category,non-empty
+attribute_category,string,Evaluative or stereotype attribute,non-empty
+congruent_block,integer,Whether pairing is congruent/easier,0|1
+response_time_ms,numeric,Trial response latency in milliseconds,250+
+accuracy,integer,Whether response was correct,0|1
+explicit_attitude,numeric,Explicit attitude score,-100 to 100
+judgment_score,numeric,Downstream judgment or evaluation score,0-100
+behavioral_outcome,numeric,Downstream behavioral decision/outcome,0-100
+cognitive_load,numeric,Cognitive load level,0-10
+accountability,numeric,Accountability/justification pressure,0-10
+time_pressure,numeric,Time pressure level,0-10
+counter_stereotypical_exposure,numeric,Counter-stereotypical exposure intensity,0-10
+perspective_taking,numeric,Perspective-taking intervention intensity,0-10
+structured_decision_support,numeric,Decision-structure/rubric support,0-10
+followup_days,numeric,Days since intervention,0+
