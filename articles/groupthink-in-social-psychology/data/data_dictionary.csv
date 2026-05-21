@@ -1,0 +1,38 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Decision group identifier,non-empty
+scenario_id,string,Scenario or policy decision identifier,non-empty
+site_id,string,Study/site/institution identifier,non-empty
+institution_context,string,Decision setting,laboratory|executive_team|policy_committee|military_staff|board|platform_team|scientific_panel|crisis_cell
+condition,string,Experimental condition,control|directive_leadership|high_cohesion|insulated_group|high_stress|consensus_pressure|dissent_visible|devils_advocate|outside_experts|subgroup_review|red_team|second_chance_meeting
+trial,integer,Trial number,1+
+cohesion,numeric,Group cohesion,0-10
+leadership_directive,numeric,Directive leadership / leader preference signaling,0-10
+group_insulation,numeric,Isolation from outside information or expertise,0-10
+stress_level,numeric,Stress, urgency, crisis intensity,0-10
+consensus_pressure,numeric,Pressure to align with emerging consensus,0-10
+self_censorship,numeric,Withholding doubts or objections,0-10
+illusion_invulnerability,numeric,Excess optimism / invulnerability belief,0-10
+collective_rationalization,numeric,Discounting warnings or disconfirming evidence,0-10
+inherent_morality,numeric,Belief in moral rightness of group,0-10
+outgroup_stereotyping,numeric,Stereotyping opponents or critics,0-10
+direct_pressure_dissenters,numeric,Pressure on dissenters,0-10
+mindguarding,numeric,Filtering contradictory information,0-10
+dissent_visibility,numeric,Visible and legitimate dissent,0-10
+outside_information,numeric,Outside expertise and corrective information,0-10
+alternative_search,numeric,Breadth of alternative search,0-10
+risk_analysis,numeric,Quality of risk analysis,0-10
+contingency_planning,numeric,Quality of contingency planning,0-10
+devils_advocate,integer,Whether a devil's advocate role was used,0|1
+independent_expert_consulted,integer,Whether independent external expertise was consulted,0|1
+subgroup_review,integer,Whether subgroups independently reviewed options,0|1
+leader_impartiality,numeric,Leader neutrality and openness to dissent,0-10
+psychological_safety,numeric,Safety to speak up,0-10
+perceived_unanimity,numeric,Perceived group unanimity,0-100
+private_disagreement,numeric,Private disagreement measured confidentially,0-100
+decision_quality,numeric,Quality of decision process/outcome benchmark,0-100
+forecast_calibration,numeric,Accuracy/calibration of group forecasts,0-100
+implementation_risk,numeric,Estimated implementation risk,0-100
+post_decision_review_quality,numeric,Quality of post-decision review and learning,0-100
+response_time_ms,numeric,Response time in milliseconds,150+

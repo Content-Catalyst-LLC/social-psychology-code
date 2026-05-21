@@ -1,0 +1,13 @@
+participant,session_id,group_id,scenario_id,site_id,institution_context,condition,trial,cohesion,leadership_directive,group_insulation,stress_level,consensus_pressure,self_censorship,illusion_invulnerability,collective_rationalization,inherent_morality,outgroup_stereotyping,direct_pressure_dissenters,mindguarding,dissent_visibility,outside_information,alternative_search,risk_analysis,contingency_planning,devils_advocate,independent_expert_consulted,subgroup_review,leader_impartiality,psychological_safety,perceived_unanimity,private_disagreement,decision_quality,forecast_calibration,implementation_risk,post_decision_review_quality,response_time_ms
+P001,SE001,G001,SC001,S01,laboratory,control,1,5.5,4.0,4.0,4.5,4.5,3.5,3.0,3.5,4.0,3.0,3.0,3.0,5.5,5.5,5.8,5.6,5.4,0,0,0,5.5,5.8,58,24,62,60,42,56,840
+P002,SE001,G001,SC001,S01,laboratory,directive_leadership,1,7.5,9.0,6.5,6.0,8.0,7.0,6.5,7.0,7.2,6.0,7.5,7.0,2.5,3.0,2.8,2.6,2.5,0,0,0,2.0,2.5,86,42,36,34,78,30,1120
+P003,SE002,G002,SC002,S01,executive_team,high_cohesion,1,9.2,6.5,6.2,5.8,7.5,6.8,6.0,6.5,7.0,5.5,6.2,6.0,3.0,3.2,3.4,3.0,3.0,0,0,0,4.0,3.5,84,38,42,40,72,34,980
+P004,SE002,G002,SC002,S01,policy_committee,insulated_group,1,7.0,6.5,9.0,6.5,7.0,7.2,6.8,7.8,7.0,7.2,6.8,8.5,2.2,1.5,2.5,2.2,2.0,0,0,0,3.5,3.0,88,46,32,30,86,26,1240
+P005,SE003,G003,SC003,S02,crisis_cell,high_stress,1,7.8,7.0,7.0,9.5,8.2,7.5,8.0,7.8,8.0,7.0,7.8,7.2,2.5,2.8,2.6,2.5,2.0,0,0,0,3.0,2.5,90,44,30,28,90,24,1480
+P006,SE003,G003,SC003,S02,board,consensus_pressure,1,8.0,7.5,7.0,6.5,9.2,8.5,7.0,7.4,7.6,6.5,8.8,7.5,1.8,2.5,2.0,2.2,2.0,0,0,0,2.8,2.0,94,52,28,26,88,22,1320
+P007,SE004,G004,SC004,S03,scientific_panel,dissent_visible,1,6.5,3.5,3.0,5.0,3.8,2.2,3.0,3.0,3.5,3.2,2.0,2.2,8.5,7.5,8.0,8.0,7.5,0,1,0,7.5,8.2,56,35,78,76,32,74,760
+P008,SE004,G004,SC004,S03,policy_committee,devils_advocate,1,6.8,3.2,3.2,5.5,3.5,2.0,2.8,3.0,3.2,3.0,2.0,2.0,8.8,7.8,8.5,8.2,8.0,1,1,0,8.0,8.5,54,38,82,80,28,78,720
+P009,SE005,G005,SC005,S04,military_staff,outside_experts,1,6.0,4.0,2.5,6.0,4.0,2.5,3.2,3.0,3.5,3.8,2.5,2.5,7.8,9.0,8.2,8.5,8.0,0,1,0,7.5,8.0,60,32,84,82,26,80,690
+P010,SE005,G005,SC005,S04,executive_team,subgroup_review,1,6.5,4.0,3.0,5.5,4.2,2.8,3.5,3.2,3.8,3.5,2.8,3.0,7.5,8.0,8.5,8.4,8.2,0,1,1,7.2,7.8,62,30,86,84,24,82,740
+P011,SE006,G006,SC006,S05,platform_team,red_team,1,6.2,3.5,2.8,6.5,3.8,2.4,3.0,3.0,3.2,3.4,2.2,2.4,8.8,8.5,9.0,9.0,8.5,1,1,1,8.0,8.5,58,34,88,86,22,84,780
+P012,SE006,G006,SC006,S05,crisis_cell,second_chance_meeting,1,6.8,3.8,3.5,7.0,4.0,2.6,3.2,3.4,3.5,3.6,2.5,2.5,8.0,8.0,8.4,8.6,8.8,1,1,1,7.8,8.0,60,36,86,84,24,86,810
