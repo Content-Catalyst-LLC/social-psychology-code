@@ -1,0 +1,32 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Discussion group identifier,non-empty
+scenario_id,string,Scenario or issue identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+platform_context,string,Discussion setting,laboratory|online_forum|jury|organization|legislature|classroom|platform_feed|boardroom
+condition,string,Experimental condition,control|homogeneous_discussion|heterogeneous_discussion|persuasive_arguments|social_comparison|identity_salience|norm_enforcement|dissent_present|structured_deliberation|algorithmic_reinforcement|cross_cutting_exposure|high_stakes
+trial,integer,Trial number,1+
+pre_attitude,numeric,Pre-discussion attitude scaled from negative to positive,-100 to 100
+post_attitude,numeric,Post-discussion attitude scaled from negative to positive,-100 to 100
+pre_confidence,numeric,Pre-discussion confidence,0-100
+post_confidence,numeric,Post-discussion confidence,0-100
+argument_exposure,numeric,Exposure to arguments supporting dominant position,0-10
+argument_diversity,numeric,Diversity of arguments across perspectives,0-10
+informational_homogeneity,numeric,One-sidedness of information environment,0-10
+social_comparison_pressure,numeric,Pressure to match or exceed group norm,0-10
+identity_salience,numeric,Salience of group identity,0-10
+group_identification,numeric,Strength of identification with discussion group,0-10
+norm_enforcement,numeric,Strength of alignment reward or dissent sanction,0-10
+dissent_presence,integer,Whether dissent was present,0|1
+dissent_quality,numeric,Quality/protection/specificity of dissent,0-10
+minority_view_protection,numeric,Protection of minority viewpoints,0-10
+deliberation_structure,numeric,Structured evidence review, turn-taking, pre-commitment, devil's advocacy,0-10
+moderation_quality,numeric,Quality of facilitation/moderation,0-10
+algorithmic_reinforcement,numeric,Degree of attitude-consistent recommendation/feed reinforcement,0-10
+cross_cutting_exposure,numeric,Exposure to credible counter-attitudinal or cross-cutting information,0-10
+perceived_consensus,numeric,Perceived group consensus after discussion,0-100
+perceived_legitimacy,numeric,Perceived legitimacy/fairness of discussion process,0-10
+decision_quality,numeric,Accuracy/usefulness of final collective judgment,0-100
+collective_judgment_accuracy,numeric,Accuracy relative to benchmark or expert criterion,0-100
+response_time_ms,numeric,Response time in milliseconds,150+

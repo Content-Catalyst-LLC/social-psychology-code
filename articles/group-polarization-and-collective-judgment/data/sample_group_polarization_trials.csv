@@ -1,0 +1,13 @@
+participant,session_id,group_id,scenario_id,site_id,platform_context,condition,trial,pre_attitude,post_attitude,pre_confidence,post_confidence,argument_exposure,argument_diversity,informational_homogeneity,social_comparison_pressure,identity_salience,group_identification,norm_enforcement,dissent_presence,dissent_quality,minority_view_protection,deliberation_structure,moderation_quality,algorithmic_reinforcement,cross_cutting_exposure,perceived_consensus,perceived_legitimacy,decision_quality,collective_judgment_accuracy,response_time_ms
+P001,SE001,G001,SC001,S01,laboratory,control,1,18,22,52,56,4.0,5.5,4.0,3.5,4.0,4.8,3.0,1,5.0,5.0,4.5,5.0,2.0,4.5,58,5.5,62,60,820
+P002,SE001,G001,SC001,S01,laboratory,homogeneous_discussion,1,24,42,58,72,7.5,2.5,8.0,6.5,6.5,6.8,6.0,0,1.5,2.0,2.5,3.0,3.5,1.8,82,4.0,48,46,920
+P003,SE002,G002,SC002,S01,online_forum,persuasive_arguments,1,30,55,62,84,9.0,2.2,8.5,5.8,6.2,6.5,5.2,0,1.0,1.5,2.0,3.0,5.0,1.5,88,4.2,44,42,1010
+P004,SE002,G002,SC002,S01,online_forum,social_comparison,1,22,46,60,78,6.0,3.0,7.0,9.0,6.8,7.2,7.0,0,1.8,2.0,2.2,3.0,4.0,2.0,85,4.0,46,45,970
+P005,SE003,G003,SC003,S02,organization,identity_salience,1,-28,-52,64,82,6.5,3.0,7.2,7.0,9.0,8.5,7.5,0,2.0,2.0,2.5,3.5,3.5,2.0,86,4.5,42,40,1160
+P006,SE003,G003,SC003,S02,organization,norm_enforcement,1,-20,-48,58,80,6.8,2.5,8.0,8.5,7.5,8.0,9.0,0,1.5,1.5,2.0,2.8,4.0,1.5,90,3.5,38,36,1230
+P007,SE004,G004,SC004,S02,jury,dissent_present,1,34,32,66,62,5.0,6.8,4.5,4.2,4.8,5.2,3.5,1,8.0,7.5,6.5,6.8,2.0,6.5,62,7.0,72,74,760
+P008,SE004,G004,SC004,S02,jury,structured_deliberation,1,30,28,64,66,4.8,8.2,3.5,3.0,4.0,4.5,2.5,1,8.5,8.5,9.0,8.5,1.5,8.0,60,8.5,84,86,710
+P009,SE005,G005,SC005,S03,platform_feed,algorithmic_reinforcement,1,26,64,60,90,8.8,1.5,9.5,7.5,8.0,8.2,7.8,0,1.0,1.2,1.8,2.0,9.5,1.0,94,3.0,34,30,1340
+P010,SE005,G005,SC005,S03,platform_feed,cross_cutting_exposure,1,28,34,62,68,5.0,8.5,3.0,3.0,4.2,4.8,2.8,1,7.5,8.0,7.5,7.0,2.0,9.0,58,7.8,78,80,740
+P011,SE006,G006,SC006,S04,legislature,high_stakes,1,-35,-72,70,92,8.0,2.0,8.8,8.0,8.5,8.8,8.5,0,1.0,1.5,2.5,2.5,5.0,1.5,92,3.2,32,28,1480
+P012,SE006,G006,SC006,S04,boardroom,heterogeneous_discussion,1,-30,-26,68,66,5.0,8.0,3.5,3.5,4.0,4.5,3.0,1,7.8,8.0,7.5,7.2,1.5,8.0,55,8.0,80,82,780
