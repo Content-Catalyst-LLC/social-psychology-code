@@ -1,0 +1,13 @@
+participant,session_id,scenario_id,site_id,reference_group,policy_domain,condition,trial,descriptive_norm,injunctive_norm,empirical_expectation,normative_expectation,personal_attitude,norm_salience,sanction_salience,sanction_severity,reward_salience,reference_group_identification,institutional_legitimacy,trust_in_institution,pluralistic_ignorance,dynamic_norm_trend,message_type,complied,compliance_intention,contribution_amount,reported_violation,response_time_ms,norm_threshold,tipping_exposure,post_message_norm_perception
+P001,SE001,SC001,S01,neighbors,environment,control,1,48,56,50,54,62,4.5,2.5,2.0,3.0,5.0,5.5,5.2,6,0,none,0,48,35,0,1120,55,10,50
+P002,SE002,SC001,S01,neighbors,environment,descriptive_norm,1,72,56,70,55,62,6.5,2.5,2.0,3.5,5.2,5.5,5.2,6,4,descriptive,1,72,62,0,850,55,35,70
+P003,SE003,SC001,S01,neighbors,environment,injunctive_norm,1,48,84,50,82,66,6.8,4.8,4.0,5.5,5.8,6.0,5.8,18,2,injunctive,1,76,65,1,760,52,30,78
+P004,SE004,SC002,S02,work_team,workplace,combined_norm,1,76,88,74,86,70,8.5,5.0,4.5,6.0,7.5,7.0,7.2,16,8,combined,1,88,78,1,690,48,50,84
+P005,SE005,SC003,S02,students,education,dynamic_norm,1,42,60,45,62,68,7.0,3.0,3.0,5.2,6.0,6.5,6.0,8,42,dynamic,1,70,58,0,820,54,60,74
+P006,SE006,SC004,S03,platform_users,digital_platform,misperception_correction,1,38,72,40,74,78,7.5,3.8,3.5,4.5,5.5,5.8,5.6,6,24,correction,1,82,68,1,780,50,55,80
+P007,SE007,SC005,S03,employees,workplace,high_sanction,1,60,78,62,80,65,7.2,8.5,8.0,4.0,6.5,6.0,5.8,13,5,injunctive,1,84,70,1,740,52,45,82
+P008,SE008,SC006,S04,citizens,public_health,low_sanction,1,55,70,56,68,72,5.8,1.5,1.0,3.0,5.5,6.5,6.0,2,5,descriptive,1,66,54,0,930,58,35,64
+P009,SE009,SC007,S04,citizens,public_health,high_legitimacy,1,64,82,66,84,78,7.8,4.5,4.0,5.8,6.8,8.8,8.5,4,12,combined,1,90,82,1,650,50,65,86
+P010,SE010,SC008,S05,citizens,public_health,low_legitimacy,1,64,82,66,84,78,5.0,3.5,3.0,3.2,5.0,2.2,2.5,4,12,combined,0,44,22,0,1320,60,30,55
+P011,SE011,SC009,S05,peers,education,pluralistic_ignorance,1,78,35,76,38,72,6.5,4.0,4.0,3.0,7.0,5.5,5.4,37,-8,none,0,38,20,0,1180,62,20,40
+P012,SE012,SC010,S05,community,common_pool,threshold_exposure,1,52,66,54,68,70,7.5,4.5,4.0,5.5,7.0,7.5,7.0,4,38,dynamic,1,78,75,1,720,50,72,80

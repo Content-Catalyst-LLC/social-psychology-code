@@ -1,0 +1,32 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+scenario_id,string,Scenario or task identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+reference_group,string,Relevant group whose norms matter,non-empty
+policy_domain,string,Behavioral domain,environment|public_health|workplace|education|digital_platform|civic|common_pool|safety
+condition,string,Experimental condition,control|descriptive_norm|injunctive_norm|combined_norm|dynamic_norm|misperception_correction|high_sanction|low_sanction|high_legitimacy|low_legitimacy|pluralistic_ignorance|threshold_exposure
+trial,integer,Trial number,1+
+descriptive_norm,numeric,Perceived prevalence of behavior in reference group,0-100
+injunctive_norm,numeric,Perceived approval of behavior in reference group,0-100
+empirical_expectation,numeric,Expected percentage of others complying,0-100
+normative_expectation,numeric,Expected percentage of others who believe one should comply,0-100
+personal_attitude,numeric,Private approval of behavior,0-100
+norm_salience,numeric,Norm salience at decision point,0-10
+sanction_salience,numeric,Visibility/likelihood of sanction for deviation,0-10
+sanction_severity,numeric,Severity of expected sanction,0-10
+reward_salience,numeric,Visibility/likelihood of reward for compliance,0-10
+reference_group_identification,numeric,Identification with relevant reference group,0-10
+institutional_legitimacy,numeric,Perceived fairness/trustworthiness of institution,0-10
+trust_in_institution,numeric,Trust in institution associated with norm,0-10
+pluralistic_ignorance,numeric,Gap between private attitude and perceived group approval,0-100
+dynamic_norm_trend,numeric,Perceived increase/decrease in behavior over time,-100 to 100
+message_type,string,Policy/norm message type,none|descriptive|injunctive|combined|dynamic|correction
+complied,integer,Whether participant complied,0|1
+compliance_intention,numeric,Self-reported intention to comply,0-100
+contribution_amount,numeric,Contribution to shared good or compliance effort,0-100
+reported_violation,integer,Whether participant reported a violation,0|1
+response_time_ms,numeric,Response time in milliseconds,150+
+norm_threshold,numeric,Estimated threshold for compliance,0-100
+tipping_exposure,numeric,Perceived exposure to norm change,0-100
+post_message_norm_perception,numeric,Post-message perceived norm strength,0-100
