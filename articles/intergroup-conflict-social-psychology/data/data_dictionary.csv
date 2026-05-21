@@ -1,0 +1,39 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Participant ingroup identifier,non-empty
+outgroup_id,string,Outgroup identifier,non-empty
+dyad_id,string,Group-pair identifier,non-empty
+scenario_id,string,Scenario or task identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental condition,baseline|resource_competition|zero_sum|identity_salience|status_threat|symbolic_threat|realistic_threat|polarization_discussion|contact_intervention|superordinate_goal|high_legitimacy|low_legitimacy
+context_type,string,Research context,laboratory|online|organization|political|community|international|education|workplace
+trial,integer,Trial number,1+
+resource_competition,numeric,Perceived material competition,0-10
+zero_sum_perception,numeric,Perceived zero-sum relation,0-10
+identity_salience,numeric,Salience of group identity,0-10
+group_identification,numeric,Strength of ingroup identification,0-10
+status_threat,numeric,Perceived group status threat,0-10
+symbolic_threat,numeric,Perceived threat to values/identity/culture,0-10
+realistic_threat,numeric,Perceived material/safety/power threat,0-10
+stereotype_endorsement,numeric,Endorsement of negative outgroup stereotypes,0-10
+outgroup_warmth,numeric,Perceived warmth/trustworthiness of outgroup,0-10
+outgroup_competence,numeric,Perceived competence/capability/status of outgroup,0-10
+intergroup_anxiety,numeric,Anxiety about interaction with outgroup,0-10
+perceived_injustice,numeric,Perceived unfair treatment of ingroup,0-10
+dehumanization,numeric,Dehumanizing perception of outgroup,0-10
+perceived_legitimacy,numeric,Perceived legitimacy of institutional process,0-10
+institutional_trust,numeric,Trust in conflict-governing institution,0-10
+norm_of_retaliation,numeric,Perceived group norm supporting retaliation,0-10
+group_polarization,numeric,Extremity increase after group discussion,0-10
+hostility_score,numeric,Hostility toward outgroup,0-100
+aggression_intention,numeric,Support/intention for aggressive action,0-100
+avoidance_intention,numeric,Desire to avoid outgroup,0-100
+support_for_exclusion,numeric,Support for exclusionary policy/action,0-100
+support_for_cooperation,numeric,Support for cooperative action,0-100
+contact_quality,numeric,Quality of intergroup contact,0-10
+equal_status,numeric,Perceived equal-status contact,0-10
+common_goal_salience,numeric,Salience of shared/superordinate goal,0-10
+institutional_support,numeric,Institutional support for fair contact/cooperation,0-10
+cooperative_task_success,numeric,Success of cooperative intergroup task,0-100
+response_time_ms,numeric,Response time in milliseconds,150+
