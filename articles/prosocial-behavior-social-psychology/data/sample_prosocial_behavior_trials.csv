@@ -1,0 +1,13 @@
+participant,session_id,recipient_id,scenario_id,site_id,condition,context_type,trial,empathy_score,perspective_taking,norm_salience,reciprocity_expectation,efficacy_belief,helping_cost,intervention_risk,bystander_count,felt_responsibility,identity_overlap,group_identification,trust_level,moral_identity,reputation_visibility,institutional_legitimacy,helping_decision,donation_amount,volunteer_minutes,cooperation_contribution,emotional_support,response_time_ms
+P001,SE001,R001,SC001,S01,baseline,laboratory,1,5.8,5.5,5.0,3.0,6.0,4.0,3.0,1,6.0,3.5,4.0,5.5,6.0,2.0,5.5,1,35,20,42,1,850
+P002,SE002,R002,SC001,S01,high_empathy,laboratory,1,8.8,7.5,5.5,3.0,6.5,4.0,3.0,1,7.5,5.5,5.5,6.0,7.0,2.0,5.5,1,75,45,62,1,720
+P003,SE003,R003,SC002,S01,strong_norm,field,1,6.0,5.8,8.8,4.0,6.5,4.0,3.0,2,7.0,4.5,6.0,6.0,6.5,4.0,6.5,1,60,35,70,1,760
+P004,SE004,R004,SC003,S02,high_efficacy,public_health,1,6.5,6.0,6.5,3.5,9.0,4.0,2.5,3,7.5,4.0,6.5,6.5,7.0,3.0,7.5,1,68,40,82,1,700
+P005,SE005,R005,SC004,S02,high_cost,field,1,7.2,6.5,6.0,3.5,6.5,8.8,7.5,2,5.0,4.5,5.5,5.5,7.0,2.5,5.5,0,12,5,20,0,1280
+P006,SE006,R006,SC005,S03,high_bystander,laboratory,1,7.0,6.0,5.5,3.0,6.0,4.0,3.0,10,3.5,4.0,5.0,5.5,6.5,2.0,5.5,0,18,0,25,0,1520
+P007,SE007,R007,SC006,S03,shared_identity,organization,1,7.0,6.8,7.0,4.5,7.0,4.0,2.5,3,8.0,8.5,8.0,7.0,7.5,3.0,7.0,1,72,50,78,1,650
+P008,SE008,R008,SC007,S04,public_helping,donation,1,6.2,5.5,7.0,4.0,6.5,3.5,2.5,2,6.8,4.0,5.5,6.0,6.5,8.5,6.0,1,78,30,70,1,710
+P009,SE009,R009,SC008,S04,anonymous_helping,donation,1,7.5,6.5,5.5,2.0,7.5,3.5,2.5,1,7.2,4.5,5.0,6.0,7.5,0.5,6.0,1,80,35,72,1,690
+P010,SE010,R010,SC009,S05,public_goods,public_goods,1,6.0,5.8,8.0,5.5,8.8,4.0,2.5,5,7.0,5.5,8.0,7.5,7.0,5.0,8.0,1,62,0,88,0,740
+P011,SE011,R011,SC010,S05,organizational_citizenship,organization,1,6.5,6.8,7.5,5.5,7.0,3.5,2.0,4,7.8,6.5,8.5,7.0,7.5,4.0,7.5,1,45,55,80,1,820
+P012,SE012,R012,SC011,S05,low_institutional_trust,public_health,1,6.2,5.5,5.0,3.0,5.5,4.0,3.0,5,4.5,4.0,4.5,3.0,6.0,2.0,2.2,0,20,10,28,0,1180

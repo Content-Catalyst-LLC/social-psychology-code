@@ -1,0 +1,30 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+recipient_id,string,Recipient/person/group/public-good identifier,non-empty
+scenario_id,string,Scenario or task identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental condition,baseline|high_empathy|strong_norm|high_efficacy|high_cost|high_bystander|shared_identity|public_helping|anonymous_helping|public_goods|organizational_citizenship|low_institutional_trust
+context_type,string,Research context,laboratory|online|field|organization|public_health|public_goods|donation|volunteer
+trial,integer,Trial number,1+
+empathy_score,numeric,Empathic concern,0-10
+perspective_taking,numeric,Cognitive perspective taking,0-10
+norm_salience,numeric,Prosocial norm salience,0-10
+reciprocity_expectation,numeric,Expected reciprocity,0-10
+efficacy_belief,numeric,Belief action will matter,0-10
+helping_cost,numeric,Subjective cost of helping/cooperation,0-10
+intervention_risk,numeric,Physical/social/reputational risk,0-10
+bystander_count,integer,Number of perceived other possible helpers,0+
+felt_responsibility,numeric,Personal responsibility to act,0-10
+identity_overlap,numeric,Perceived shared identity/closeness with recipient/group,0-10
+group_identification,numeric,Identification with relevant group/community,0-10
+trust_level,numeric,General trust/social trust,0-10
+moral_identity,numeric,Centrality of prosocial morality to self-concept,0-10
+reputation_visibility,numeric,Visibility of contribution to others,0-10
+institutional_legitimacy,numeric,Perceived fairness/trustworthiness of institution asking for cooperation,0-10
+helping_decision,integer,Whether participant helped,0|1
+donation_amount,numeric,Amount donated or allocated,0-100
+volunteer_minutes,numeric,Minutes volunteered or pledged,0+
+cooperation_contribution,numeric,Contribution to public good/shared task,0-100
+emotional_support,integer,Whether emotional support was offered,0|1
+response_time_ms,numeric,Response time in milliseconds,150+
