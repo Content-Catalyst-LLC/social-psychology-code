@@ -1,0 +1,9 @@
+participant,session_id,team_id,task_id,site_id,condition,task_type,trial,group_size,solo_effort,group_effort,effort_loss,output_score,coordination_loss,motivation_loss,identifiability,accountability,task_value,task_uniqueness,task_visibility,perceived_dispensability,perceived_instrumentality,free_rider_expectation,sucker_effect_concern,social_compensation_tendency,group_cohesion,group_identity_salience,evaluation_potential,digital_traceability,remote_status,response_time_ms
+P001,SE001,T001,TA001,S01,solo,physical,1,1,86,86,0,86,0,0,10,9,6,8,9,1,9,1,2,2,4,4,9,0,solo,710
+P002,SE002,T002,TA001,S01,pooled_group,physical,1,6,84,63,21,72,8,13,2,2,5,2,2,7,3,7,5,2,4,4,2,0,co-located,880
+P003,SE003,T003,TA002,S01,identifiable_group,cognitive,1,5,78,75,3,80,5,2,8,8,7,6,8,3,7,2,3,3,6,6,8,2,co-located,930
+P004,SE004,T004,TA003,S02,low_accountability,academic,1,7,76,54,22,65,7,15,2,2,4,3,2,8,3,8,6,2,3,3,2,1,hybrid,1260
+P005,SE005,T005,TA004,S02,high_task_value,organizational,1,6,81,77,4,83,4,1,6,7,9,7,7,3,8,2,3,5,8,8,7,5,co-located,840
+P006,SE006,T006,TA005,S03,unique_contribution,creative,1,5,79,80,-1,84,5,0,7,7,8,10,8,2,9,1,2,5,7,7,7,4,co-located,1020
+P007,SE007,T007,TA006,S03,distributed_team,digital,1,8,82,61,21,70,9,12,3,3,6,4,3,7,4,6,7,3,4,4,3,3,remote,1380
+P008,SE008,T008,TA006,S03,traceable_digital_team,digital,1,8,80,76,4,82,7,0,8,8,7,6,9,3,8,2,3,4,6,6,8,9,remote,980

@@ -1,0 +1,32 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Session identifier,non-empty
+team_id,string,Team/group identifier,non-empty
+task_id,string,Task identifier,non-empty
+site_id,string,Site/context identifier,non-empty
+condition,string,Experimental condition,solo|pooled_group|identifiable_group|high_accountability|low_accountability|high_task_value|low_task_value|unique_contribution|distributed_team|traceable_digital_team
+task_type,string,Task domain,physical|cognitive|creative|academic|organizational|digital|public_goods
+trial,integer,Trial number,1+
+group_size,integer,Number of people in group,1+
+solo_effort,numeric,Solo baseline effort,0-100
+group_effort,numeric,Effort in group condition,0-100
+effort_loss,numeric,Solo effort minus group effort,-100 to 100
+output_score,numeric,Task output score,0-100
+coordination_loss,numeric,Estimated coordination loss,0-100
+motivation_loss,numeric,Estimated motivation loss,0-100
+identifiability,numeric,Contribution identifiability,0-10
+accountability,numeric,Perceived accountability,0-10
+task_value,numeric,Perceived task value,0-10
+task_uniqueness,numeric,Contribution uniqueness,0-10
+task_visibility,numeric,Visibility of contribution process,0-10
+perceived_dispensability,numeric,Perceived dispensability of own effort,0-10
+perceived_instrumentality,numeric,Belief own effort affects outcome,0-10
+free_rider_expectation,numeric,Expected ability to benefit while undercontributing,0-10
+sucker_effect_concern,numeric,Fear of being exploited by loafers,0-10
+social_compensation_tendency,numeric,Tendency to compensate for weak others,0-10
+group_cohesion,numeric,Group cohesion,0-10
+group_identity_salience,numeric,Group identity salience,0-10
+evaluation_potential,numeric,Potential for contribution evaluation,0-10
+digital_traceability,numeric,Visibility through logs/version history/dashboards,0-10
+remote_status,string,Work mode,solo|co-located|remote|hybrid
+response_time_ms,numeric,Response time in milliseconds,150+
