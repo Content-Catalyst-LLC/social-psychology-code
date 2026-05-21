@@ -1,0 +1,9 @@
+participant,session_id,group_id,site_id,condition,context_type,trial,anonymity,identifiability,group_size,crowd_immersion,self_awareness,accountability,group_identity_salience,personal_identity_salience,group_norm_valence,norm_clarity,norm_congruence,arousal_index,emotional_contagion,responsibility_diffusion,moral_disengagement,perceived_surveillance,moderation_visibility,behavior_score,prosocial_behavior,antisocial_behavior,response_time_ms
+P001,SE001,G001,S01,identified,laboratory,1,1.5,8.8,4,2.0,8.2,8.5,2.5,8.0,0.0,3.0,3.2,3.0,2.4,1.8,1.5,8.0,7.5,51,42,18,910
+P002,SE002,G002,S01,anonymous,online,1,8.5,1.2,24,6.8,3.0,2.4,4.0,2.5,0.0,4.5,5.0,6.5,6.0,6.8,4.8,2.0,2.0,57,44,34,840
+P003,SE003,G003,S02,anonymous_prosocial_norm,online,1,8.4,1.5,36,7.2,3.2,3.0,8.4,2.4,4.2,8.5,8.6,6.8,6.6,6.4,2.2,2.5,7.8,82,86,12,760
+P004,SE004,G004,S02,anonymous_antisocial_norm,online,1,8.7,1.1,42,7.5,2.8,2.2,8.0,2.0,-4.0,8.2,8.4,7.2,7.1,7.0,7.6,2.0,1.8,78,15,82,790
+P005,SE005,G005,S03,high_accountability,organization,1,3.0,7.4,8,4.0,7.0,8.6,5.0,7.0,1.5,6.2,6.0,4.5,4.0,3.2,2.4,8.0,7.0,64,58,20,940
+P006,SE006,G006,S03,side_group_salient,crowd,1,7.2,2.5,80,8.4,3.8,3.5,9.0,3.0,3.5,9.0,8.8,8.0,8.2,7.5,3.5,3.0,5.0,80,82,18,720
+P007,SE007,G007,S04,digital_pseudonym,platform,1,7.8,3.0,120,7.0,3.5,4.0,7.5,3.5,-2.5,7.0,7.4,6.8,6.4,6.0,5.8,4.0,3.0,69,28,58,810
+P008,SE008,G008,S04,moderated_platform,platform,1,6.0,4.5,110,6.5,5.0,6.8,7.2,4.5,3.0,8.2,7.8,6.0,5.8,4.5,2.5,6.6,8.5,75,78,17,830

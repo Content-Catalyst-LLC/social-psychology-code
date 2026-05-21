@@ -1,0 +1,29 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Group/crowd/community identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental or platform condition,identified|anonymous|anonymous_prosocial_norm|anonymous_antisocial_norm|high_accountability|low_self_awareness|side_group_salient|digital_pseudonym|moderated_platform
+context_type,string,Research context,laboratory|crowd|online|organization|political|platform|classroom
+trial,integer,Trial number,1+
+anonymity,numeric,Perceived anonymity,0-10
+identifiability,numeric,Perceived personal identifiability,0-10
+group_size,integer,Group or visible crowd size,1+
+crowd_immersion,numeric,Subjective immersion in collective setting,0-10
+self_awareness,numeric,Private/public self-awareness,0-10
+accountability,numeric,Perceived accountability,0-10
+group_identity_salience,numeric,Salience of shared group identity,0-10
+personal_identity_salience,numeric,Salience of individual/personal identity,0-10
+group_norm_valence,numeric,Negative/antisocial to positive/prosocial norm,-5 to 5
+norm_clarity,numeric,Clarity of salient group norm,0-10
+norm_congruence,numeric,Behavioral alignment with salient group norm,0-10
+arousal_index,numeric,Emotional/physiological arousal,0-10
+emotional_contagion,numeric,Shared affective amplification,0-10
+responsibility_diffusion,numeric,Diffusion of personal responsibility,0-10
+moral_disengagement,numeric,Moral disengagement/rationalization,0-10
+perceived_surveillance,numeric,Perceived surveillance/traceability,0-10
+moderation_visibility,numeric,Visibility of platform/institutional moderation,0-10
+behavior_score,numeric,General target behavior score,0-100
+prosocial_behavior,numeric,Prosocial behavior score,0-100
+antisocial_behavior,numeric,Antisocial behavior score,0-100
+response_time_ms,numeric,Response time in milliseconds,150+
