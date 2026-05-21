@@ -1,0 +1,32 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Group/cohort identifier,non-empty
+scenario_id,string,Scenario/task identifier,non-empty
+site_id,string,Study/site/institution identifier,non-empty
+institution_context,string,Institutional context,laboratory|education|employment|healthcare|criminal_justice|housing|public_policy|platform|organization
+condition,string,Experimental or intervention condition,control|contact_quality|equal_status_contact|cooperative_goals|threat_salience|stereotype_threat|structured_criteria|accountability|identity_safety|counter_stereotypical_exposure
+trial,integer,Trial number,1+
+target_group,string,Target social group or anonymized group label,non-empty
+evaluator_group,string,Evaluator group or anonymized group label,non-empty
+stereotype_strength,numeric,Strength of group-attribute belief or association,0-10
+warmth_rating,numeric,Warmth rating,0-10
+competence_rating,numeric,Competence rating,0-10
+prejudice_rating,numeric,Affective/evaluative prejudice rating,0-10
+perceived_threat,numeric,Perceived symbolic/material/status threat,0-10
+perceived_competition,numeric,Perceived competition,0-10
+perceived_status,numeric,Perceived status of target group,0-10
+social_distance,numeric,Willingness for closeness reversed as distance,0-10
+contact_quality,numeric,Quality of intergroup contact,0-10
+contact_quantity,numeric,Amount/frequency of contact,0-10
+institutional_support,numeric,Institutional support for equal-status cooperation,0-10
+stereotype_threat_salience,numeric,Stereotype threat salience,0-10
+identity_safety,numeric,Identity-safety cues in setting,0-10
+implicit_score,numeric,Implicit association score,-3 to 3
+explicit_attitude,numeric,Explicit attitude score,-100 to 100
+discrimination_tendency,numeric,Behavioral or decision tendency toward discrimination,0-100
+behavioral_outcome,numeric,Downstream outcome score,0-100
+performance_score,numeric,Performance score in stereotype-threat task,0-100
+response_time_ms,numeric,Response time in milliseconds,250+
+structured_criteria,numeric,Strength of structured evaluative criteria,0-10
+accountability,numeric,Accountability/justification level,0-10

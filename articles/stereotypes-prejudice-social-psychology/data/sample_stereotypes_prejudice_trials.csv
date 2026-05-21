@@ -1,0 +1,11 @@
+participant,session_id,group_id,scenario_id,site_id,institution_context,condition,trial,target_group,evaluator_group,stereotype_strength,warmth_rating,competence_rating,prejudice_rating,perceived_threat,perceived_competition,perceived_status,social_distance,contact_quality,contact_quantity,institutional_support,stereotype_threat_salience,identity_safety,implicit_score,explicit_attitude,discrimination_tendency,behavioral_outcome,performance_score,response_time_ms,structured_criteria,accountability
+P001,SE001,G001,SC001,S01,laboratory,control,1,group_a,group_b,5.2,5.0,5.4,4.8,4.5,4.2,5.5,4.5,3.0,3.5,3.0,2.0,4.0,0.35,5,48,62,70,810,3,3
+P002,SE001,G001,SC002,S01,laboratory,threat_salience,1,group_a,group_b,7.4,3.2,6.2,7.5,8.6,8.0,6.5,7.8,2.0,2.5,2.0,3.0,2.5,0.82,-10,70,50,66,940,2,2
+P003,SE002,G002,SC003,S02,education,stereotype_threat,1,group_a,group_b,6.8,4.0,5.0,6.2,6.4,5.8,5.0,6.0,3.0,3.0,3.0,8.8,2.0,0.60,0,63,55,58,1050,3,3
+P004,SE002,G002,SC004,S02,education,identity_safety,1,group_a,group_b,4.5,6.5,6.2,3.8,3.0,3.0,5.5,3.5,5.5,5.0,7.5,3.0,8.5,0.22,12,36,74,78,760,6,7
+P005,SE003,G003,SC005,S03,employment,structured_criteria,1,group_a,group_b,4.8,5.8,6.2,4.2,4.0,4.2,6.0,4.0,4.0,3.5,6.0,2.0,6.0,0.25,10,35,76,73,780,9,7
+P006,SE003,G003,SC006,S03,employment,accountability,1,group_a,group_b,5.0,5.7,6.0,4.0,4.0,4.0,6.0,3.8,4.0,4.0,6.5,2.0,6.5,0.28,15,34,78,75,795,7,9
+P007,SE004,G004,SC007,S04,healthcare,contact_quality,1,group_a,group_b,4.0,6.8,5.5,3.2,2.8,3.0,5.5,2.8,8.5,7.0,8.0,2.0,7.5,0.10,20,28,82,76,720,6,7
+P008,SE004,G004,SC008,S04,public_policy,equal_status_contact,1,group_a,group_b,3.8,7.2,5.8,3.0,2.5,2.5,5.5,2.5,8.0,6.0,8.8,2.0,8.0,0.05,25,25,84,78,700,7,8
+P009,SE005,G005,SC009,S05,organization,cooperative_goals,1,group_a,group_b,4.2,7.0,6.0,3.4,3.0,2.8,5.8,3.0,7.8,6.5,8.2,2.5,7.8,0.12,18,30,80,77,735,7,7
+P010,SE005,G005,SC010,S05,platform,counter_stereotypical_exposure,1,group_a,group_b,3.5,7.0,6.8,2.8,2.2,2.5,6.5,2.2,5.5,5.0,6.5,2.0,7.2,-0.05,30,22,86,80,690,6,7
