@@ -1,0 +1,30 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+recipient_id,string,Recipient/person/group/public-good identifier,non-empty
+scenario_id,string,Scenario or task identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental condition,baseline|high_empathy|low_empathy|high_cost|low_cost|anonymous_helping|public_helping|kin_recipient|stranger_recipient|reciprocity_expected|public_goods|altruistic_punishment
+context_type,string,Research context,laboratory|online|field|organization|public_goods|donation|volunteer
+trial,integer,Trial number,1+
+empathy_score,numeric,Empathic concern for recipient,0-10
+personal_distress,numeric,Self-oriented distress,0-10
+helping_cost,numeric,Subjective cost of helping,0-10
+recipient_need,numeric,Severity of recipient need,0-10
+recipient_closeness,numeric,Social/relational closeness to recipient,0-10
+identity_overlap,numeric,Self-other or group identity overlap,0-10
+kinship_coefficient,numeric,Estimated genetic relatedness or proxy,0-1
+reciprocity_expectation,numeric,Expected direct/indirect reciprocity,0-10
+reputation_visibility,numeric,Visibility/status benefit of helping,0-10
+moral_identity,numeric,Centrality of care/helping to self-concept,0-10
+social_norm_salience,numeric,Visibility of helping norm,0-10
+warm_glow_expectation,numeric,Expected positive affect/self-signaling from helping,0-10
+perceived_efficacy,numeric,Belief that help will improve welfare/public good,0-10
+intervention_risk,numeric,Physical/social/reputational risk of helping,0-10
+altruistic_decision,integer,Whether participant chose costly helping,0|1
+donation_amount,numeric,Amount donated or allocated to recipient/public good,0-100
+time_volunteered_minutes,numeric,Minutes volunteered or pledged,0+
+altruistic_punishment,integer,Whether participant punished defector/free rider at personal cost,0|1
+punishment_cost,numeric,Cost incurred for punishment,0-100
+public_goods_contribution,numeric,Contribution to shared public good,0-100
+response_time_ms,numeric,Response time in milliseconds,150+
