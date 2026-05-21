@@ -1,0 +1,29 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Group or cohort identifier,non-empty
+scenario_id,string,Scenario identifier,non-empty
+site_id,string,Study/site/institution identifier,non-empty
+institution_context,string,Institutional setting,laboratory|workplace|military|hospital|court|school|public_agency|platform_team|emergency_response
+condition,string,Experimental condition,control|high_legitimacy|low_legitimacy|authority_present|authority_distant|peer_dissent|peer_compliance|high_responsibility|responsibility_displacement|visible_harm|abstract_harm|mission_identification|resistance_support
+trial,integer,Trial number,1+
+authority_legitimacy,numeric,Perceived legitimacy of authority,0-10
+authority_proximity,numeric,Proximity/immediacy of authority figure,0-10
+institutional_prestige,numeric,Prestige or credibility of institution,0-10
+command_clarity,numeric,Clarity and directiveness of command,0-10
+cost_of_defiance,numeric,Perceived cost of refusing,0-10
+escalation_step,integer,Escalation stage,1+
+responsibility_displacement,numeric,Perceived transfer of responsibility away from self,0-10
+moral_conflict,numeric,Internal ethical discomfort or conflict,0-10
+victim_proximity,numeric,Proximity/immediacy of harmed person or affected party,0-10
+harm_salience,numeric,Visibility/concreteness of harm,0-10
+peer_dissent,numeric,Visible resistance by peers,0-10
+peer_compliance,numeric,Visible compliance by peers,0-10
+role_identification,numeric,Identification with assigned role,0-10
+mission_identification,numeric,Identification with authority/institutional mission,0-10
+obeyed,integer,Whether participant obeyed,0|1
+resisted,integer,Whether participant resisted/refused,0|1
+hesitation,numeric,Observed or reported hesitation,0-10
+protest,integer,Whether participant protested or objected,0|1
+response_time_ms,numeric,Response time in milliseconds,150+
+perceived_responsibility_after,numeric,Post-action perceived personal responsibility,0-10

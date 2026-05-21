@@ -1,0 +1,13 @@
+participant,session_id,group_id,scenario_id,site_id,institution_context,condition,trial,authority_legitimacy,authority_proximity,institutional_prestige,command_clarity,cost_of_defiance,escalation_step,responsibility_displacement,moral_conflict,victim_proximity,harm_salience,peer_dissent,peer_compliance,role_identification,mission_identification,obeyed,resisted,hesitation,protest,response_time_ms,perceived_responsibility_after
+P001,SE001,G001,SC001,S01,laboratory,control,1,5.8,5.2,5.5,5.4,4.2,1,4.8,4.5,4.0,4.2,3.0,5.5,5.0,5.2,1,0,4.5,0,840,5.0
+P002,SE001,G001,SC001,S01,laboratory,high_legitimacy,2,8.8,7.0,8.5,7.8,5.5,2,6.5,5.0,3.5,4.0,2.0,7.5,6.5,7.0,1,0,5.0,0,920,4.0
+P003,SE002,G002,SC002,S01,workplace,low_legitimacy,2,2.8,4.0,3.0,5.0,4.0,2,3.0,6.5,6.0,6.5,5.5,3.5,4.5,3.5,0,1,7.0,1,1180,8.0
+P004,SE002,G002,SC002,S01,workplace,authority_present,3,7.5,9.0,7.0,8.0,6.0,3,7.0,5.5,4.0,5.0,2.5,8.0,6.0,6.5,1,0,6.0,0,1050,3.5
+P005,SE003,G003,SC003,S02,military,authority_distant,3,7.0,2.5,7.0,6.5,4.5,3,5.0,6.0,5.0,5.5,3.5,5.0,5.8,6.0,0,1,7.5,1,1300,6.5
+P006,SE003,G003,SC003,S02,hospital,peer_dissent,4,7.2,6.5,8.0,7.0,5.0,4,4.0,8.0,7.5,8.0,9.0,2.0,5.5,6.0,0,1,8.5,1,1460,8.2
+P007,SE004,G004,SC004,S02,court,peer_compliance,4,7.8,7.5,8.0,7.2,5.5,4,7.2,5.5,4.0,4.5,1.0,9.0,6.2,7.0,1,0,5.5,0,970,3.8
+P008,SE004,G004,SC004,S02,public_agency,high_responsibility,5,7.0,6.0,7.0,7.0,5.0,5,2.0,8.5,8.0,8.5,5.0,4.5,5.0,5.5,0,1,9.0,1,1600,9.0
+P009,SE005,G005,SC005,S03,platform_team,responsibility_displacement,5,7.8,7.0,7.5,8.0,6.0,5,8.8,5.0,3.0,4.0,2.0,8.0,6.5,7.5,1,0,5.0,0,880,2.5
+P010,SE005,G005,SC005,S03,emergency_response,visible_harm,6,7.0,6.5,7.5,7.0,5.5,6,3.0,9.0,9.0,9.0,6.5,4.0,5.8,6.0,0,1,9.5,1,1750,9.2
+P011,SE006,G006,SC006,S04,school,mission_identification,6,8.0,7.0,8.2,7.5,5.5,6,7.5,5.5,4.0,4.5,2.5,8.5,8.5,9.0,1,0,5.2,0,910,3.5
+P012,SE006,G006,SC006,S04,public_agency,resistance_support,6,6.5,5.5,6.8,6.0,3.0,6,3.0,8.0,7.5,8.0,8.5,2.5,5.0,5.0,0,1,8.8,1,1500,8.8
