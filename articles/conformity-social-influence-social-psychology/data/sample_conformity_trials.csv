@@ -1,0 +1,13 @@
+participant,session_id,group_id,scenario_id,site_id,context,condition,trial,ambiguity,majority_size,unanimity,visible_dissent,cohesion,normative_pressure,informational_uncertainty,status_strength,public_response,private_response,group_identification,social_identity_salience,minority_consistency,network_exposure,social_proof_metrics,algorithmic_amplification,conformed,dissented,confidence_pre,confidence_post,response_time_ms
+P001,SE001,G001,SC001,S01,laboratory,control,1,4.5,3,5.0,3.5,5.0,4.2,4.5,4.0,1,0,5.0,4.8,2.0,2.5,2.0,1.0,0,1,68,72,820
+P002,SE001,G001,SC001,S01,laboratory,ambiguous_task,1,8.5,3,6.5,2.5,5.2,5.0,8.8,5.0,1,0,5.5,5.0,2.0,3.0,2.0,1.0,1,0,52,61,1040
+P003,SE002,G002,SC002,S01,laboratory,unanimous_majority,1,4.0,5,9.5,0.5,6.0,8.0,5.0,6.0,1,0,6.5,6.2,0.0,3.5,2.5,1.0,1,0,70,66,1120
+P004,SE002,G002,SC002,S01,laboratory,broken_unanimity,1,4.0,5,5.0,8.5,6.0,4.5,4.5,6.0,1,0,6.0,6.0,7.5,3.0,2.0,1.0,0,1,72,78,900
+P005,SE003,G003,SC003,S02,classroom,public_response,1,5.0,4,8.5,1.0,7.0,8.5,5.0,5.8,1,0,7.2,7.0,1.0,4.0,3.0,1.5,1,0,64,62,1180
+P006,SE003,G003,SC003,S02,classroom,private_response,1,5.0,4,8.5,1.0,7.0,4.0,5.0,5.8,0,1,7.2,7.0,1.0,4.0,3.0,1.5,0,1,66,74,760
+P007,SE004,G004,SC004,S02,workplace,high_cohesion,1,5.5,4,8.0,1.0,9.0,8.0,5.2,6.5,1,0,8.8,8.5,2.0,5.0,4.0,2.0,1,0,58,63,1260
+P008,SE004,G004,SC004,S02,organization,high_status_majority,1,5.0,4,8.0,1.0,6.8,7.0,5.5,9.0,1,0,7.0,6.8,1.5,4.5,4.0,2.0,1,0,62,67,1030
+P009,SE005,G005,SC005,S03,laboratory,visible_ally,1,4.5,4,4.5,9.0,6.0,3.5,4.0,5.5,1,0,5.5,5.5,8.5,3.0,2.0,1.0,0,1,76,82,850
+P010,SE005,G005,SC005,S03,laboratory,consistent_minority,1,5.5,4,5.0,7.5,5.5,4.0,5.5,5.5,1,0,5.5,5.0,9.0,3.0,2.5,1.0,0,1,70,80,980
+P011,SE006,G006,SC006,S04,platform,digital_social_proof,1,6.0,100,8.5,1.5,5.0,7.5,6.0,5.5,1,0,5.0,5.0,2.0,9.0,9.2,6.5,1,0,55,68,700
+P012,SE006,G006,SC006,S04,platform,algorithmic_amplification,1,6.5,100,9.0,1.0,5.5,8.0,6.5,6.0,1,0,5.2,5.4,2.0,9.2,9.5,9.0,1,0,54,71,690

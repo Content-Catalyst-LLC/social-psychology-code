@@ -1,0 +1,30 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Group or cohort identifier,non-empty
+scenario_id,string,Scenario/task identifier,non-empty
+site_id,string,Study/site/institution identifier,non-empty
+context,string,Research context,laboratory|classroom|workplace|platform|organization|public_opinion|network_simulation
+condition,string,Experimental condition,control|ambiguous_task|unanimous_majority|broken_unanimity|public_response|private_response|high_cohesion|high_status_majority|visible_ally|consistent_minority|digital_social_proof|algorithmic_amplification
+trial,integer,Trial number,1+
+ambiguity,numeric,Task ambiguity or uncertainty,0-10
+majority_size,integer,Number of majority sources,0+
+unanimity,numeric,Perceived unanimity,0-10
+visible_dissent,numeric,Visibility of dissent or ally support,0-10
+cohesion,numeric,Group cohesion,0-10
+normative_pressure,numeric,Pressure to fit in or avoid disapproval,0-10
+informational_uncertainty,numeric,Uncertainty that makes others informative,0-10
+status_strength,numeric,Status/expertise/prestige of source group,0-10
+public_response,integer,Whether response is public,0|1
+private_response,integer,Whether response is private,0|1
+group_identification,numeric,Identification with group,0-10
+social_identity_salience,numeric,Salience of group identity,0-10
+minority_consistency,numeric,Consistency of dissenting minority,0-10
+network_exposure,numeric,Exposure to others' judgments in network/platform,0-10
+social_proof_metrics,numeric,Visible popularity/rating/share cues,0-10
+algorithmic_amplification,numeric,Algorithmic reinforcement of visible consensus,0-10
+conformed,integer,Whether participant conformed,0|1
+dissented,integer,Whether participant dissented/resisted,0|1
+confidence_pre,numeric,Pre-response confidence,0-100
+confidence_post,numeric,Post-response confidence,0-100
+response_time_ms,numeric,Response time in milliseconds,150+
