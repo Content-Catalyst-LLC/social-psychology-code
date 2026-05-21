@@ -1,0 +1,33 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Group/cohort identifier,non-empty
+scenario_id,string,Scenario/task identifier,non-empty
+site_id,string,Study/site/institution identifier,non-empty
+institution_context,string,Context,laboratory|medicine|law|finance|public_policy|organization|platform|education
+judgment_domain,string,Judgment domain,risk|health|legal|financial|social|political|organizational|consumer|environmental
+heuristic_type,string,Primary heuristic,anchoring|availability|representativeness|affect|framing|confirmation|overconfidence|base_rate|mixed
+condition,string,Experimental condition,control|low_anchor|high_anchor|base_rate_prompt|vivid_case|neutral_case|gain_frame|loss_frame|accountability|calibration_feedback|consider_opposite|structured_decision
+trial,integer,Trial number,1+
+anchor_value,numeric,Initial anchor or reference value,-1000 to 1000
+true_value,numeric,Normative target or true value,-1000 to 1000
+estimate,numeric,Participant or model estimate,-1000 to 1000
+base_rate,numeric,Relevant base-rate probability,0-1
+individuating_information_strength,numeric,Strength of case-specific cue,0-10
+representativeness_rating,numeric,Similarity to prototype,0-10
+availability_salience,numeric,Vividness/recentness/recall ease,0-10
+affect_valence,numeric,Positive/negative affect toward target,-10 to 10
+perceived_risk,numeric,Perceived risk,0-100
+perceived_benefit,numeric,Perceived benefit,0-100
+frame_type,string,Presentation frame,gain|loss|neutral
+choice_binary,integer,Binary choice outcome,0 or 1
+confidence_rating,numeric,Subjective confidence,0-100
+actual_accuracy,numeric,Actual accuracy or correctness,0-100
+confirmation_tendency,numeric,Tendency to seek/weight confirming evidence,0-10
+disconfirming_evidence_exposure,numeric,Exposure to disconfirming evidence,0-10
+overconfidence_score,numeric,Confidence minus accuracy,-100 to 100
+response_time_ms,numeric,Response time in milliseconds,150+
+debiasing_intervention_strength,numeric,Strength of debiasing intervention,0-10
+institutional_accountability,numeric,Accountability, auditability, or review pressure,0-10
+feedback_quality,numeric,Quality of outcome feedback,0-10
+decision_quality,numeric,Composite decision-quality score,0-100

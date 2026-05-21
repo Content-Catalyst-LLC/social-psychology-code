@@ -1,0 +1,11 @@
+participant,session_id,group_id,scenario_id,site_id,institution_context,judgment_domain,heuristic_type,condition,trial,anchor_value,true_value,estimate,base_rate,individuating_information_strength,representativeness_rating,availability_salience,affect_valence,perceived_risk,perceived_benefit,frame_type,choice_binary,confidence_rating,actual_accuracy,confirmation_tendency,disconfirming_evidence_exposure,overconfidence_score,response_time_ms,debiasing_intervention_strength,institutional_accountability,feedback_quality,decision_quality
+P001,SE001,G001,SC001,S01,laboratory,risk,anchoring,control,1,50,52,55,0.50,4,5,4,0,48,52,neutral,1,65,70,4,4,-5,760,1,3,4,68
+P002,SE001,G001,SC002,S01,laboratory,risk,anchoring,high_anchor,1,90,52,74,0.50,4,5,4,0,58,50,neutral,1,75,62,5,4,13,810,1,3,4,55
+P003,SE002,G002,SC003,S02,laboratory,financial,anchoring,low_anchor,1,10,52,35,0.50,4,5,4,0,40,55,neutral,0,70,60,5,4,10,800,1,3,4,58
+P004,SE002,G002,SC004,S02,medicine,health,availability,vivid_case,1,50,40,62,0.20,5,5,9,-6,82,30,loss,1,78,55,6,3,23,920,1,4,4,50
+P005,SE003,G003,SC005,S03,medicine,health,availability,neutral_case,1,50,40,44,0.20,5,5,3,0,55,48,neutral,0,62,64,4,5,-2,740,2,5,5,70
+P006,SE003,G003,SC006,S03,law,legal,representativeness,control,1,50,30,65,0.15,8,9,5,-2,68,42,neutral,1,85,50,7,3,35,980,1,3,3,45
+P007,SE004,G004,SC007,S04,law,legal,representativeness,base_rate_prompt,1,50,30,38,0.15,8,9,5,-2,55,45,neutral,0,70,68,5,6,2,900,8,7,6,75
+P008,SE004,G004,SC008,S04,public_policy,environmental,affect,loss_frame,1,50,45,68,0.35,5,6,7,-8,88,28,loss,1,82,58,7,3,24,930,1,3,4,48
+P009,SE005,G005,SC009,S05,public_policy,environmental,framing,gain_frame,1,50,45,46,0.35,5,6,5,2,45,72,gain,0,68,66,4,5,2,760,3,5,5,72
+P010,SE005,G005,SC010,S05,organization,organizational,confirmation,consider_opposite,1,50,50,52,0.50,5,5,5,0,52,55,neutral,0,60,72,3,8,-12,860,8,8,8,82
