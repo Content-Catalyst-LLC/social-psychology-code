@@ -1,0 +1,30 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+scenario_id,string,Scenario or emergency identifier,non-empty
+site_id,string,Study/site/context identifier,non-empty
+condition,string,Experimental condition,alone|small_group|large_group|ambiguous_emergency|clear_emergency|direct_assignment|shared_identity|online_harassment|trained_bystander|high_evaluation_risk
+context_type,string,Research context,laboratory|field|online|organization|classroom|public_space|platform
+trial,integer,Trial number,1+
+actual_bystander_count,integer,Objective number of bystanders,0+
+perceived_bystander_count,integer,Perceived number of bystanders,0+
+emergency_clarity,numeric,Clarity that the situation requires intervention,0-10
+danger_level,numeric,Perceived danger or severity,0-10
+victim_identifiability,numeric,Identifiability/vividness/social closeness of victim,0-10
+shared_identity,numeric,Shared identity with victim/group/helping norm,0-10
+felt_responsibility,numeric,Perceived personal responsibility to act,0-10
+diffusion_responsibility,numeric,Diffusion of responsibility,0-10
+pluralistic_ignorance,numeric,Extent of misreading others' inaction as normality,0-10
+evaluation_apprehension,numeric,Fear of embarrassment/social judgment,0-10
+perceived_competence,numeric,Confidence in knowing how to help,0-10
+intervention_cost,numeric,Perceived cost or risk of intervention,0-10
+direct_assignment,integer,Whether responsibility was directly assigned,0|1
+leadership_cue,integer,Whether someone modeled/cued intervention,0|1
+intervention_norm_salience,numeric,Visibility of norm that intervention is expected,0-10
+online_context,integer,Whether event occurs online,0|1
+platform_traceability,numeric,Visibility/traceability of online action,0-10
+moderation_visibility,numeric,Visibility of moderation or institutional response,0-10
+intervention_likelihood,numeric,Self-reported likelihood of intervention,0-100
+actual_intervention,integer,Whether participant intervened,0|1
+intervention_latency_ms,numeric,Latency before intervention decision/action,150+
+response_confidence,numeric,Confidence in intervention judgment,0-10
