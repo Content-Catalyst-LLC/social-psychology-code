@@ -1,0 +1,11 @@
+participant,session_id,group_id,scenario_id,site_id,institution_context,behavior_domain,target_type,self_other,outcome_valence,condition,trial,ambiguity_level,intentionality,perceived_choice,perceived_effort,perceived_ability,situational_constraint,consensus,distinctiveness,consistency,attribution_internal,attribution_external,stability_rating,controllability_rating,responsibility_rating,blame_rating,sympathy_rating,anger_rating,punishment_support,help_support,achievement_expectation,hostile_attribution_score,attributional_complexity,cultural_agency_orientation,response_time_ms
+P001,SE001,G001,SC001,S01,laboratory,everyday,other,other,neutral,control,1,5,5,5,5,5,5,5,5,5,55,50,5,5,50,45,45,40,35,50,55,45,5,5,760
+P002,SE001,G001,SC002,S01,laboratory,everyday,other,other,neutral,high_constraint,1,5,4,3,5,5,9,7,8,7,35,78,4,3,28,25,70,20,15,75,60,25,7,4,810
+P003,SE002,G002,SC003,S02,laboratory,everyday,other,other,neutral,low_constraint,1,5,8,9,6,7,1,2,2,8,82,25,7,8,82,78,22,75,70,25,65,60,4,7,840
+P004,SE002,G002,SC004,S02,education,achievement,self,self,success,achievement_feedback,1,3,6,8,9,7,3,5,5,8,72,30,7,8,78,20,70,10,5,80,82,20,6,7,700
+P005,SE003,G003,SC005,S03,education,achievement,self,self,failure,achievement_feedback,1,4,5,6,3,4,7,6,7,8,38,72,4,5,45,35,68,30,20,82,48,25,7,4,790
+P006,SE003,G003,SC006,S03,law,harm,other,other,harm,high_consensus,1,6,6,5,5,5,6,9,7,8,45,72,5,5,42,40,60,38,35,65,50,48,7,4,910
+P007,SE004,G004,SC007,S04,law,harm,other,other,harm,low_consensus,1,6,8,8,5,6,2,1,3,8,80,30,7,8,86,82,20,80,78,20,55,72,4,7,940
+P008,SE004,G004,SC008,S04,organization,workplace,leader,other,failure,system_visibility,1,5,5,5,5,6,8,8,8,8,42,80,5,4,35,32,62,28,22,78,55,30,8,4,880
+P009,SE005,G005,SC009,S05,organization,workplace,subordinate,other,failure,accountability,1,5,6,6,4,5,7,7,7,8,50,70,5,5,45,42,58,38,35,72,52,35,8,5,860
+P010,SE005,G005,SC010,S05,intergroup_conflict,harm,outgroup,other,harm,hostile_ambiguity,1,9,7,7,5,5,4,3,3,6,75,35,7,7,78,80,18,85,82,18,45,88,3,8,980

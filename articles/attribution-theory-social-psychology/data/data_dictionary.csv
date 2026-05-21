@@ -1,0 +1,37 @@
+column,type,description,expected_range
+participant,string,Unique participant identifier,non-empty
+session_id,string,Experimental session identifier,non-empty
+group_id,string,Group/cohort identifier,non-empty
+scenario_id,string,Scenario/task identifier,non-empty
+site_id,string,Study/site/institution identifier,non-empty
+institution_context,string,Context,laboratory|education|law|organization|public_policy|medicine|platform|intergroup_conflict
+behavior_domain,string,Behavior domain,achievement|harm|helping|workplace|legal|health|political|intergroup|everyday
+target_type,string,Target type,self|other|ingroup|outgroup|institution|leader|subordinate
+self_other,string,Actor-observer perspective,self|other
+outcome_valence,string,Outcome valence,success|failure|harm|help|neutral
+condition,string,Experimental condition,control|high_constraint|low_constraint|high_consensus|low_consensus|high_distinctiveness|low_distinctiveness|high_consistency|low_consistency|accountability|system_visibility|hostile_ambiguity|achievement_feedback
+trial,integer,Trial number,1+
+ambiguity_level,numeric,Ambiguity of behavior or event,0-10
+intentionality,numeric,Perceived intentionality,0-10
+perceived_choice,numeric,Perceived freedom of choice,0-10
+perceived_effort,numeric,Perceived effort,0-10
+perceived_ability,numeric,Perceived ability,0-10
+situational_constraint,numeric,External constraint or pressure,0-10
+consensus,numeric,Kelley consensus cue,0-10
+distinctiveness,numeric,Kelley distinctiveness cue,0-10
+consistency,numeric,Kelley consistency cue,0-10
+attribution_internal,numeric,Internal/dispositional attribution,0-100
+attribution_external,numeric,External/situational attribution,0-100
+stability_rating,numeric,Perceived stability of cause,0-10
+controllability_rating,numeric,Perceived controllability of cause,0-10
+responsibility_rating,numeric,Responsibility judgment,0-100
+blame_rating,numeric,Blame judgment,0-100
+sympathy_rating,numeric,Sympathy or compassion,0-100
+anger_rating,numeric,Anger toward actor,0-100
+punishment_support,numeric,Support for punishment/sanction,0-100
+help_support,numeric,Support for help/intervention,0-100
+achievement_expectation,numeric,Expectation of future achievement,0-100
+hostile_attribution_score,numeric,Inference of hostile intent,0-100
+attributional_complexity,numeric,Use of multiple/contextual causes,0-10
+cultural_agency_orientation,numeric,Individual agency emphasis relative to contextual emphasis,0-10
+response_time_ms,numeric,Response time in milliseconds,150+
